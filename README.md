@@ -540,3 +540,9 @@ You can also check whether or not the node is now executable by using: `ros2 pkg
 
 Quick tip: If it does not execute, it could be that Linux does not know how to directly run a python file like this, so then we need to tell LinuX to run Python3 when running this file. To do this we can add this at the top of our python node code: `#!/usr/bin/env python3`
 
+## ROS2 Topic and Message
+Now we want to create a topic and messages that contain the information we want to send through ros from python. The difference between a Topic and a Service is that a service runs on a request/response interaction, meaning that it requests something and then waits for a response, meaning its a two way connection. So if you only want a one way connection like in the case of this project, it is better to use a topic, for the control input, as we want to continously just update the control input. This improves connection times and reduces delay. Because we do not use the control input again in the controller script. 
+
+Now to create a message we can use the command: `touch <Path and Name of the message>.msg`. Now we have a message where we can write the the variable that we want to give a value later and send over to Unity or whatever other program. For this project I use for the ControlInput message `float 64 motor_torque` as the message. Once this is done, we have to Import the message into our node script so we can actually use it by writing towards the top of the node: `from <packageName>.msg import <Msg Name>`
+
+
