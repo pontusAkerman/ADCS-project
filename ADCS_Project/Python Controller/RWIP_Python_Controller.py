@@ -6,7 +6,6 @@ from scipy.optimize import minimize
 import pygame
 import sympy as sp
 from dataclasses import dataclass
-from controller_node import ControllerNode
 
 
 
