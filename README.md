@@ -534,6 +534,9 @@ install(
 )
 ```
 
-Next step is to make the Python Node script executable, and you do this by running this command in the bash: `chmod +x <Node Path>.py`
+Next step is to make the Python Node script executable, and you do this by running this command in the bash: `chmod +x <Node Path>.py`. When this is done you need to run `colcon build` again in order to establish the changes you have made and to reload the workspace. Lastly you also need to source the workspace: `source install/setup.bash`
+
+You can also check whether or not the node is now executable by using: `ros2 pkg executables <packageName>`, you can also run the node by using the full name of the executable that came up from the previous command, `ros2 run <executableName>`
+
 
 
