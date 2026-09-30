@@ -538,5 +538,5 @@ Next step is to make the Python Node script executable, and you do this by runni
 
 You can also check whether or not the node is now executable by using: `ros2 pkg executables <packageName>`, you can also run the node by using the full name of the executable that came up from the previous command, `ros2 run <executableName>`
 
-
+Quick tip: If it does not execute, it could be that Linux does not know how to directly run a python file like this, so then we need to tell LinuX to run Python3 when running this file. To do this we can add this at the top of our python node code: `#!/usr/bin/env python3`
 
