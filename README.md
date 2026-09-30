@@ -486,7 +486,12 @@ After that we have to build the workspace by using `colcon build` which is a com
 If you have moved your workspace and would like to rebuild it including all your packages and Cmake lists etc, use `rm -rf build install log` and `colcon build` inside your ros2_ws location. This will rebuild the log of the workspace.
 
 ## ROS2 Packages
+Packages is a collection of functionality in ROS, where you have your collection of scripts etc that can later be imported etc for different projects or if other functions are needed for a specific node. to create a CMake (C++) package you can write: `ros2 pkg create --build-type ament_cmake <package_name>` otherwhise if you want to make a Python package you can write: `ros2 pkg create --build-type ament_python <package_name>`, and when you have made your package or any change, go back to the ros2_ws location and run `colcon build`again.
 
-Packages is a collection of functionality in ROS, where you have your collection of scripts etc that can later be imported etc for different projects or if other functions are needed for a specific node. to create a CMake (C++) package you can write: `ros2 pkg create --build-type ament_cmake <package_name>` otherwhise if you want to make a Python package you can write: `ros2 pkg create --build-type ament_python <package_name>`
+## ROS2 Nodes
+The difference between a node and a package is that a ROS2 package is what contains your ROS2 functionality, all the code etc. While a node is within that package and is a program or script running inside the package. To create a ROS2 Node inside a ROS2 package you can use the command: `touch <location><nodeName.cpp>`
+
+
+
 
 
