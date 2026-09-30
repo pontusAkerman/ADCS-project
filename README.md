@@ -545,4 +545,8 @@ Now we want to create a topic and messages that contain the information we want 
 
 Now to create a message we can use the command: `touch <Path and Name of the message>.msg`. Now we have a message where we can write the the variable that we want to give a value later and send over to Unity or whatever other program. For this project I use for the ControlInput message `float 64 motor_torque` as the message. Once this is done, we have to Import the message into our node script so we can actually use it by writing towards the top of the node: `from <packageName>.msg import <Msg Name>`
 
+To create a publsiher for the message we write in the node within the `__init__(self)` function: `self.publisher = self.create_publisher(<msg Name>, '<name of the publisher topic>', <queue size>)`
+
+Afterwards you can use the message as you wish and finish the function with : `self.publisher.publish(msg)`, if you set `msg = <msg Name>()`
+
 
