@@ -1,0 +1,162 @@
+[2026-09-30T16:41:08.937Z][INFO] Command-line: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 449120 --ipc-path /tmp/Unity-Upm-449120.sock -l 2 --log-file '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Logs/upm.log'
+[2026-09-30T16:41:08.970Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-449120.sock).
+[2026-09-30T16:41:08.970Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-449120.
+[2026-09-30T16:41:10.961Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:10.979Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:11.232Z][INFO] project:list-packages --> 200 (271 ms)
+[2026-09-30T16:41:12.139Z][INFO] project:list-packages --> 200 (1160 ms)
+[2026-09-30T16:41:12.289Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:41:12.294Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-30T16:41:12.983Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:13.095Z][INFO] project:list-packages --> 200 (112 ms)
+[2026-09-30T16:41:17.675Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:17.747Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:17.799Z][INFO] project:list-packages --> 200 (124 ms)
+[2026-09-30T16:41:17.882Z][INFO] project:list-packages --> 200 (135 ms)
+[2026-09-30T16:41:18.369Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:18.479Z][INFO] project:list-packages --> 200 (110 ms)
+[2026-09-30T16:41:18.502Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:41:18.506Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-30T16:41:23.216Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:23.321Z][INFO] project:list-packages --> 200 (105 ms)
+[2026-09-30T16:41:27.391Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-30T16:41:27.535Z][WARN] Requested version [3.0.2] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-09-30T16:41:27.537Z][INFO] project:resolve-packages --> 200 (146 ms)
+[2026-09-30T16:41:27.611Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:41:27.621Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:27.648Z][INFO] config:project:get-registries --> 200 (38 ms)
+[2026-09-30T16:41:27.814Z][INFO] project:list-packages --> 200 (193 ms)
+[2026-09-30T16:41:29.804Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:29.934Z][INFO] project:list-packages --> 200 (130 ms)
+[2026-09-30T16:41:35.863Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:35.955Z][INFO] project:list-packages --> 200 (92 ms)
+[2026-09-30T16:41:36.559Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:41:36.645Z][INFO] project:list-packages --> 200 (86 ms)
+[2026-09-30T16:41:36.671Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:41:36.675Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-30T16:45:44.101Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:45:44.115Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-30T16:45:44.125Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-30T16:45:44.137Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:45:44.761Z][INFO] packages:get-all-packageinfo --> 200 (636 ms)
+[2026-09-30T16:45:45.001Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.addressables@2.11.2"
+}
+[2026-09-30T16:45:45.011Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ads.ios-support@1.0.1"
+}
+[2026-09-30T16:45:45.021Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.mobile.notifications@2.4.3"
+}
+[2026-09-30T16:45:45.033Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.project-auditor-rules@1.0.3"
+}
+[2026-09-30T16:45:45.047Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@3.0.3"
+}
+[2026-09-30T16:45:45.055Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-09-30T16:45:45.067Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-09-30T16:45:45.276Z][INFO] packages:get-packageinfo --> 200 (265 ms)
+[2026-09-30T16:45:45.284Z][INFO] packages:get-packageinfo --> 200 (217 ms)
+[2026-09-30T16:45:45.291Z][INFO] packages:get-packageinfo --> 200 (270 ms)
+[2026-09-30T16:45:45.301Z][INFO] packages:get-packageinfo --> 200 (254 ms)
+[2026-09-30T16:45:45.305Z][INFO] packages:get-packageinfo --> 200 (272 ms)
+[2026-09-30T16:45:45.315Z][INFO] packages:get-packageinfo --> 200 (260 ms)
+[2026-09-30T16:45:45.326Z][INFO] packages:get-packageinfo --> 200 (325 ms)
+[2026-09-30T16:45:45.635Z][INFO] project:list-packages --> 200 (1498 ms)
+[2026-09-30T16:45:45.637Z][INFO] project:list-packages --> 200 (1535 ms)
+[2026-09-30T16:45:47.331Z][INFO] packages:get-all-packageinfo --> 200 (3216 ms)
+[2026-09-30T16:45:49.755Z][INFO] project:add-remove-dependencies <-- Request received
+params: {}
+[2026-09-30T16:45:50.402Z][INFO] Cloning git package:
+  Repository: 'https://github.com/Unity-Technologies/ROS-TCP-Connector.git'
+  Package location in repository: 'com.unity.robotics.ros-tcp-connector'
+  Commit-ish: 'HEAD'
+  Destination: '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache'
+[2026-09-30T16:45:52.153Z][ERROR] Error when executing Git command:
+  git lfs pull --include com.unity.robotics.ros-tcp-connector
+  - message: `/usr/bin/git lfs pull --include com.unity.robotics.ros-tcp-connector` failed with code 1
+  
+  - stderr: git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	log
+
+[2026-09-30T16:45:53.152Z][INFO] project:add-remove-dependencies --> 200 (3397 ms)
+[2026-09-30T16:45:53.189Z][INFO] project:add-remove-dependencies <-- Request received
+params: {}
+[2026-09-30T16:45:53.883Z][INFO] Cloning git package:
+  Repository: 'https://github.com/Unity-Technologies/ROS-TCP-Connector.git'
+  Package location in repository: 'com.unity.robotics.ros-tcp-connector'
+  Commit-ish: 'HEAD'
+  Destination: '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache'
+[2026-09-30T16:45:55.615Z][ERROR] Error when executing Git command:
+  git lfs pull --include com.unity.robotics.ros-tcp-connector
+  - message: `/usr/bin/git lfs pull --include com.unity.robotics.ros-tcp-connector` failed with code 1
+  
+  - stderr: git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	log
+
+[2026-09-30T16:45:56.469Z][INFO] project:add-remove-dependencies --> 200 (3281 ms)
+[2026-09-30T16:45:56.513Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:45:56.553Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-30T16:45:56.642Z][INFO] project:list-packages --> 200 (129 ms)
+[2026-09-30T16:45:56.730Z][WARN] Requested version [3.0.2] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-09-30T16:45:56.732Z][INFO] project:resolve-packages --> 200 (179 ms)
+[2026-09-30T16:45:56.841Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:45:56.845Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-30T16:45:56.851Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:45:57.023Z][INFO] project:list-packages --> 200 (172 ms)
+[2026-09-30T16:46:06.863Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:46:06.936Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:46:06.988Z][INFO] project:list-packages --> 200 (125 ms)
+[2026-09-30T16:46:07.063Z][INFO] project:list-packages --> 200 (127 ms)
+[2026-09-30T16:46:07.594Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:46:07.687Z][INFO] project:list-packages --> 200 (93 ms)
+[2026-09-30T16:46:07.737Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-30T16:46:07.742Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-30T16:46:09.910Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-30T16:46:10.026Z][INFO] project:list-packages --> 200 (116 ms)
+[2026-09-30T16:47:34.590Z][INFO] Received shutdown request (SIGINT), shutting down Unity Package Manager

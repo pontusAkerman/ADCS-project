@@ -1,0 +1,1351 @@
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+Kernel version:          7.0.0-34-generic
+Architecture:            x86_64
+Available memory:        15361 MB
+Date:                    2026-09-30T16:41:07Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 449140)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 449142)
+VBCSCompiler prewarm took 27.70 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pontus-akerman" at "2026-09-30T16:41:07.504433Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              934b6154f87647b4b27a0df5933c79fb
+  Correlation Id:          6baed0ff9098c3f428386ae697014377
+  External correlation Id: 6422658825926182474
+  Machine Id:              wqpPwVQ5+/KnOpiqFkruWYT9lJ8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-pontus-akerman" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pontus-akerman-notifications" at "2026-09-30T16:41:07.509417Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token ypS6E9ycYa...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 9072454928681-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Selected window backend: (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/unityhub-unity-editor-6000.6.3f1
+-projectpath
+/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-pontus-akerman
+-hubSessionId
+3995145d-cb54-4dae-8711-832780206652
+-accessToken
+ypS6E9ycYaBE-E0_95GHl73_Vw_siIzxOYheIRitFsA008f
+Successfully changed project path to: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [123872870357440]  Target information:
+
+Player connection [123872870357440]  * "[IP] 192.168.0.112 [Port] 55504 [Flags] 2 [Guid] 693807003 [EditorId] 693807003 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.112) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [123872870357440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [123872870357440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Warning] Acquired exclusive lock but discovered existing shared memory pool, destroying and reinitialising
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 5408522200de023f3cb41a8b15ff7fb1
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052624
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Package Manager] Connected to IPC stream "Upm-449120" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCSUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Assets
+kGfxThreadingModeSplitJobs is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 7.0.0-34-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -573725552
+Initialize mono
+Mono path[0] = '/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = '/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004055 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.764 seconds
+Domain Reload Profiling: 3631ms
+	BeginReloadAssembly (184ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (165ms)
+		TypeCache.Refresh (330ms)
+			TypeCache.ScanAssembly (310ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (2766ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (2036ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.pipeline@0.8.0-exp.1 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.pipeline@62c08c808737)
+    com.unity.visualscripting@1.9.12 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.searcher@4.9.5 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461)
+    com.unity.test-framework@1.8.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443)
+    com.unity.shadergraph@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.shadergraph@48089545eeac)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.graph-authoring@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.collections@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.test-framework.performance@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll" in favor of "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s273ms
+[725/951    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.22 seconds), 1 items updated, 951 evaluated
+AssetDatabase: script compilation time: 1.085418s
+Total cache size 96684840
+Total cache size after purge 96684840, took 00:00:00.0968790
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.872 seconds
+Domain Reload Profiling: 3429ms
+	BeginReloadAssembly (320ms)
+		DisableScriptedObjects (39ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (1091ms)
+		LoadAssemblies (514ms)
+		TypeCache.Refresh (339ms)
+			TypeCache.ScanAssembly (317ms)
+		AnalyzeDomain (118ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1874ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (812ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Starting new worker id: 0 with log in /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 18dc0cd2c080841dea60987a38ce93fa - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 18dc0cd2c080841dea60987a38ce93fa' -> (Import Result ID: 'c84af68db1c13e8a5d09738d471ce4e4') in 0.024 seconds [static dependencies only]. Details - ImportResultOutputID=ac92a3253360087966dd104547753906 DependenciesID=8b0f946a22e04e5053f8ba81852d9a96 StaticDependenciesID=c88a0fd0ff6b1f24024063400b971410 
+
+Asset Pipeline Refresh (id=e59115b988431dbb5816bc8120ceaa1c): Total: 6.674 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=3406 ms
+		Asset DB Callback time: managed=477 ms, native=17 ms
+		Scripting: domain reloads=1, domain reload time=1621 ms, compile time=1088 ms, other=58 ms
+		Project Asset Count: scripts=1416, non-scripts=2334
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.068ms
+	InvokePackagesCallback: 10.923ms
+	ApplyChangesToAssetFolders: 0.789ms
+	Scan: 734.743ms
+	Collect global state as custom dependencies: 32.757ms
+	OnSourceAssetsModified: 1.288ms
+	CategorizeScriptCompilationAssets: 80.012ms
+	ProcessAssetsWithTransientArtifactChanges: 116.342ms
+	CategorizeAssets: 115.187ms
+	CompileScripts: 1087.874ms
+	ImportOutOfDateAssets: 2101.294ms (1885.840ms without children)
+		ImportManagerImport: 27.690ms (2.278ms without children)
+			UpdateCategorizedAssets: 0.060ms
+		ReloadNativeAssets: 0.110ms
+		UnloadImportedAssets: 4.559ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.672ms
+		ImportSchedulerStart: 180.346ms
+	PostProcessAllAssets: 559.724ms
+		XRBuildSystem.XRAssetImported 1.162ms
+		MonoPostProcessAllAssets: 557.575ms
+			AssetPostprocessor.OnPostprocessAllAssets 260.343ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 35.062ms
+			AssetChangedListener.OnPostprocessAllAssets 19.336ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 16.608ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.035ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.861ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.608ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.377ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.254ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.875ms
+			PostProcessor.OnPostprocessAllAssets 0.795ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.748ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.715ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.582ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.572ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.531ms
+			AssetEvents.OnPostprocessAllAssets 0.487ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.426ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.425ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.404ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.368ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.317ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.311ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.153ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.070ms
+	PostAssetChangesProfiler: 4.671ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.552ms
+	UnloadStreamsBegin: 2.748ms
+	PersistCurrentRevisions: 0.688ms
+	GenerateScriptTypeHashes: 5.231ms
+	GenerateScriptTypeSerializationHashes: 10.105ms
+	Untracked: 1897.009ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 7.164ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Unity-Ros-ADCS
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6830 unused Assets / (11.9 MB). Loaded Objects now: 7812.
+Memory consumption went from 233.8 MB to 222.0 MB.
+Total: 36.012258 ms (FindLiveObjects: 0.905981 ms CreateObjectMapping: 1.002572 ms MarkObjects: 20.060231 ms  DeleteObjects: 13.713055 ms)
+
+[LAYOUT] About to load /home/pontus-akerman/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+[LAYOUT] About to save layout /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/pontus-akerman/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Unhandled description string [
+Unhandled description string ]
+Unhandled description string [
+Unhandled description string ]
+Disable old input system
+[Project] Loading completed in 15.906 seconds
+	Project init time: 				11.929 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.335 seconds
+		Asset Database init time: 		0.214 seconds
+		Global illumination init time: 	0.007 seconds
+		Assemblies load time: 			3.689 seconds
+		Unity extensions init time: 	0.052 seconds
+		Asset Database refresh time: 	6.680 seconds
+	Scene opening time: 			2.832 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790786483362,"processId":449120,"projectLoad":15.906133598999999,"projectInit":11.928551323,"templateInit":0.0,"packageManagerInit":0.334645395,"assetDatabaseInit":0.213509678,"globalIlluminationInit":0.006973722,"assembliesLoad":3.689317637,"unityExtensionsInit":0.051991035,"assetDatabaseRefresh":6.680415666,"sceneOpening":2.832043318}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790786483362,"processId":449120,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Linux"}
+
+Asset Pipeline Refresh (id=6b7ecdce3642cb331ad71dfd6e67bdb4): Total: 0.307 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=306 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1416, non-scripts=2334
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.372ms
+	ApplyChangesToAssetFolders: 0.269ms
+	Scan: 240.583ms
+	Collect global state as custom dependencies: 0.369ms
+	ProcessAssetsWithTransientArtifactChanges: 0.392ms
+	CategorizeAssets: 47.592ms
+	CompileScripts: 0.057ms
+	ImportOutOfDateAssets: 3.316ms (0.309ms without children)
+		ReloadNativeAssets: 0.053ms
+		UnloadImportedAssets: 0.139ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.852ms
+		ImportSchedulerStart: 1.941ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.293ms
+	UnloadStreamsBegin: 1.813ms
+	PersistCurrentRevisions: 0.270ms
+	Untracked: 10.135ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Starting new worker id: 1 with log in /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Logs/AssetImportWorkerHW1.log
+GPUResidentDrawer The current platform does not support UnityEngine.Rendering.BatchBufferTarget
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.GPUResidentDrawer:LogMessage (string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs:122)
+UnityEngine.Rendering.GPUResidentDrawer:Recreate (UnityEngine.Rendering.GPUResidentDrawerSettings) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:395)
+UnityEngine.Rendering.GPUResidentDrawer:Reinitialize () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:342)
+UnityEngine.Rendering.IGPUResidentRenderPipeline:ReinitializeGPUResidentDrawer () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/IGPUResidentRenderPipeline.cs:100)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461/Runtime/Data/UniversalRenderPipelineAsset.cs:811)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:172)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:146)
+UnityEditor.Handles:Internal_DrawCameraWithGrid (UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters&,bool,bool)
+UnityEditor.Handles:DrawCameraImpl (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,bool,UnityEditor.DrawGridParameters,bool,bool,bool,UnityEngine.GameObject[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1675)
+UnityEditor.Handles:DrawCameraStep1 (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters,bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1698)
+UnityEditor.SceneView:DoDrawCamera (UnityEngine.Rect,UnityEngine.Rect,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2567)
+UnityEditor.SceneView:DoOnGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2891)
+UnityEditor.SceneView:OnSceneGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2799)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:387)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:716)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:573)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:186)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:983)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:604)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:549)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:160)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1040)
+UnityEngine.UIElements.Panel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1851)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:62)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs Line: 122)
+
+[Worker0] Imported GUID: 052faaac586de48259a63d0c4782560b - Path: Assets/InputSystem_Actions.inputactions - Importer: PreviewImporter -> (ImportResultId: '257a2ee0326124caa9f6719de2d6dccc') in 0.054093957 seconds
+[Worker0] Imported GUID: 8105016687592461f977c054a80ce2f2 - Path: Assets/Readme.asset - Importer: PreviewImporter -> (ImportResultId: '7ea86a10af4ec97c603c40316953aa5a') in 0.022581991 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Created GICache directory at /home/pontus-akerman/.cache/unity3d/GiCache. Took: 0.006s, timestamps: [15.949 - 15.955]
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+[Package Manager] Done resolving packages in 0.19 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.pipeline@0.8.0-exp.1 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.pipeline@62c08c808737)
+    com.unity.visualscripting@1.9.12 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.searcher@4.9.5 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461)
+    com.unity.test-framework@1.8.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443)
+    com.unity.shadergraph@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.shadergraph@48089545eeac)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.graph-authoring@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.collections@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.test-framework.performance@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+
+Asset Pipeline Refresh (id=af9a01c2bcaaf029891d45757c17b7ee): Total: 0.373 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=154 ms
+		Asset DB Callback time: managed=0 ms, native=218 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1416, non-scripts=2334
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 218.455ms
+	ApplyChangesToAssetFolders: 0.214ms
+	Scan: 149.134ms
+	Collect global state as custom dependencies: 0.250ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.408ms
+	UnloadStreamsBegin: 4.044ms
+	UnloadStreamsEnd: 0.148ms
+	Untracked: 0.559ms
+
+Starting new worker id: 2 with log in /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Logs/AssetImportWorkerHW2.log
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Asset Pipeline Refresh (id=f28df65e0acd9b283a4cab14f7f2e599): Total: 0.183 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f6e4a561c6b199c41b0e8ceb79802d5c): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unhandled description string [
+Unhandled description string ]
+GPUResidentDrawer The current platform does not support UnityEngine.Rendering.BatchBufferTarget
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.GPUResidentDrawer:LogMessage (string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs:122)
+UnityEngine.Rendering.GPUResidentDrawer:Recreate (UnityEngine.Rendering.GPUResidentDrawerSettings) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:395)
+UnityEngine.Rendering.GPUResidentDrawer:Reinitialize () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:342)
+UnityEngine.Rendering.IGPUResidentRenderPipeline:ReinitializeGPUResidentDrawer () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/IGPUResidentRenderPipeline.cs:100)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461/Runtime/Data/UniversalRenderPipelineAsset.cs:811)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:172)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:146)
+UnityEditor.Handles:Internal_DrawCameraWithGrid (UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters&,bool,bool)
+UnityEditor.Handles:DrawCameraImpl (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,bool,UnityEditor.DrawGridParameters,bool,bool,bool,UnityEngine.GameObject[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1675)
+UnityEditor.Handles:DrawCameraStep1 (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters,bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1698)
+UnityEditor.SceneView:DoDrawCamera (UnityEngine.Rect,UnityEngine.Rect,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2567)
+UnityEditor.SceneView:DoOnGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2891)
+UnityEditor.SceneView:OnSceneGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2799)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:387)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:716)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:573)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:186)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:983)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:604)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:549)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:160)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1040)
+UnityEngine.UIElements.Panel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1851)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:62)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs Line: 122)
+
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+Worker ready: AssetImportWorkerHW1 1
+[Licensing::Client] Successfully resolved entitlement details
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/DotNetSdk/dotnet "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/2400b0aE.dag.json" "Library/Bee/2400b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+ExitCode: 4 Duration: 0s440ms
+[724/951    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2400b0aE-inputdata.json
+*** Tundra requires additional run (0.34 seconds), 2 items updated, 946 evaluated
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "ypS6E9yc"... (expires: 2026-09-30T18:33:36Z)
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW2 2
+ExitCode: 0 Duration: 2s112ms
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/2400b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+ExitCode: 0 Duration: 1s394ms
+Finished compiling graph: 954 nodes, 20221 flattened edges (17111 ToBuild, 158 ToUse), maximum node priority 1059
+[491/951    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.rsp
+[703/951    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[947/951    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[948/951    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll, with 136 defines and 384 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[949/951    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[950/951    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.30 seconds), 6 items updated, 951 evaluated
+Total cache size 96684840
+Total cache size after purge 96684840, took 00:00:00.0696999
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  3.184 seconds
+Domain Reload Profiling: 4828ms
+	BeginReloadAssembly (783ms)
+		DisableScriptedObjects (201ms)
+		CreateAndSetChildDomain (271ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (192ms)
+		TypeCache.Refresh (16ms)
+		AnalyzeDomain (320ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3186ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (370ms)
+			ProcessInitializeOnLoadAttributes (823ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (1109ms)
+
+Asset Pipeline Refresh (id=8d8a57b700366a5b8997b5bd9b095d60): Total: 5.145 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3371 ms
+		Asset DB Callback time: managed=51 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1719 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1415, non-scripts=2334
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.666ms
+	ApplyChangesToAssetFolders: 0.436ms
+	Collect global state as custom dependencies: 3.349ms
+	ProcessAssetsWithTransientArtifactChanges: 12.904ms
+	CategorizeAssets: 67.455ms
+	CompileScripts: 2.254ms
+	ImportOutOfDateAssets: 3201.306ms (3192.575ms without children)
+		CollectScriptTypesHashes: 7.846ms
+		ReloadNativeAssets: 4.778ms
+		UnloadImportedAssets: 1.976ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.122ms
+		ImportSchedulerStart: 0.782ms
+	PostProcessAllAssets: 51.802ms
+		MonoPostProcessAllAssets: 51.784ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 24.957ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.957ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.780ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.553ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.381ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.322ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.211ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.705ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.592ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.408ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.317ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.284ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.276ms
+			SyncVS.PostprocessSyncProject 0.252ms
+			AssetChangedListener.OnPostprocessAllAssets 0.068ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.052ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.282ms
+	UnloadStreamsBegin: 0.073ms
+	PersistCurrentRevisions: 0.150ms
+	GenerateScriptTypeHashes: 15.027ms
+	GenerateScriptTypeSerializationHashes: 25.774ms
+	Untracked: 1798.452ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+GPUResidentDrawer The current platform does not support UnityEngine.Rendering.BatchBufferTarget
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.GPUResidentDrawer:LogMessage (string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs:122)
+UnityEngine.Rendering.GPUResidentDrawer:Recreate (UnityEngine.Rendering.GPUResidentDrawerSettings) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:395)
+UnityEngine.Rendering.GPUResidentDrawer:Reinitialize () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:342)
+UnityEngine.Rendering.IGPUResidentRenderPipeline:ReinitializeGPUResidentDrawer () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/IGPUResidentRenderPipeline.cs:100)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461/Runtime/Data/UniversalRenderPipelineAsset.cs:811)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:172)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:146)
+UnityEditor.Handles:Internal_DrawCameraWithGrid (UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters&,bool,bool)
+UnityEditor.Handles:DrawCameraImpl (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,bool,UnityEditor.DrawGridParameters,bool,bool,bool,UnityEngine.GameObject[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1675)
+UnityEditor.Handles:DrawCameraStep1 (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters,bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1698)
+UnityEditor.SceneView:DoDrawCamera (UnityEngine.Rect,UnityEngine.Rect,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2567)
+UnityEditor.SceneView:DoOnGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2891)
+UnityEditor.SceneView:OnSceneGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2799)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:387)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:716)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:573)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:186)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:983)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:604)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:549)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:160)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1040)
+UnityEngine.UIElements.Panel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1851)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:62)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs Line: 122)
+
+TrimDiskCacheJob: Current cache size 0mb
+
+Asset Pipeline Refresh (id=ed9588505858b6158969af74c4c371ed): Total: 0.468 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=467 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1415, non-scripts=2334
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.354ms
+	ApplyChangesToAssetFolders: 0.222ms
+	Scan: 466.237ms
+	Collect global state as custom dependencies: 0.173ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.519ms
+	UnloadStreamsEnd: 0.118ms
+	Untracked: 0.534ms
+
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=84c225d0c8b72bb96ac3140dca312d86): Total: 0.178 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Done resolving packages in 0.21 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+[Package Manager] Registered 62 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.pipeline@0.8.0-exp.1 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.pipeline@62c08c808737)
+    com.unity.visualscripting@1.9.12 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.searcher@4.9.5 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461)
+    com.unity.test-framework@1.8.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework@33f8a1e9aefd)
+    com.unity.timeline@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.timeline@9cd41035b3ab)
+    com.unity.ugui@2.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ugui@88d0d51315d3)
+    com.unity.modules.accessibility@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.ext.nunit@508b95ff9afe)
+    com.unity.render-pipelines.core@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.core@2862bc571443)
+    com.unity.shadergraph@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.shadergraph@48089545eeac)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.render-pipelines.universal-config@b1357eef5cd3)
+    com.unity.graph-authoring@1.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.graph-authoring@f8926ccf2c8f)
+    com.unity.burst@2.0.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.burst@c3ed5b778d56)
+    com.unity.collections@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.collections@431b1d558060)
+    com.unity.test-framework.performance@6.6.0 (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.test-framework.performance@530c2523cea5)
+  Git packages:
+    com.unity.robotics.ros-tcp-connector@https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector (location: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/Library/PackageCache/com.unity.robotics.ros-tcp-connector@bdad6c87bd9e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.06 seconds
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+ExitCode: 4 Duration: 0s292ms
+[646/951    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2400b0aE-inputdata.json
+*** Tundra requires additional run (0.20 seconds), 1 items updated, 951 evaluated
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/DotNetSdk/dotnet "/home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/2400b0aE.dag.json" "Library/Bee/2400b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+ExitCode: 0 Duration: 1s864ms
+Starting: /home/pontus-akerman/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2400b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/2400b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS
+ExitCode: 0 Duration: 3s695ms
+Finished compiling graph: 994 nodes, 21235 flattened edges (17971 ToBuild, 166 ToUse), maximum node priority 1096
+[300/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.rsp2
+[310/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll.mvfrm.rsp
+[312/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.UnityAdditionalFile.txt
+[314/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.rsp
+[321/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.UnityAdditionalFile.txt
+[341/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.rsp2
+[348/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll.mvfrm.rsp
+[355/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.rsp2
+[360/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.rsp
+[364/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.UnityAdditionalFile.txt
+[375/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll.mvfrm.rsp
+[402/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.rsp2
+[418/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.rsp
+[420/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.UnityAdditionalFile.txt
+[438/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll.mvfrm.rsp
+[498/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp
+[502/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp
+[503/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.rsp
+[510/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.rsp
+[511/991    0s] WriteText Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.rsp
+[650/991    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[957/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll (+2 others) [CacheMiss 6ce3b3c8d5663991e8fc9ee966c636cc00000000000000000000000000000006]
+[958/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll (+2 others) [CacheWrite 6ce3b3c8d5663991e8fc9ee966c636cc00000000000000000000000000000006]
+[959/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll, with 138 defines and 309 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[960/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll
+[961/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.MessageGeneration.pdb
+[962/991    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Robotics.ROSTCPConnector.MessageGeneration.ref.dll_955045A66065F8A8.mvfrm
+[963/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll (+2 others) [CacheMiss c953c9a3b7e04bf63570a2f1c08b5fb500000000000000000000000000000006]
+[964/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll (+2 others) [CacheWrite c953c9a3b7e04bf63570a2f1c08b5fb500000000000000000000000000000006]
+[965/991    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Robotics.ROSTCPConnector.Messages.ref.dll_792E6A9807A2CF69.mvfrm
+[966/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Unity.Robotics.ROSTCPConnector.Messages.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Messages.dll, with 138 defines and 310 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[967/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.pdb
+[968/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Messages.dll
+[969/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll (+2 others) [CacheMiss 57399a6b23b188e213cbe0737ae8ba3100000000000000000000000000000006]
+[970/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll (+2 others) [CacheWrite 57399a6b23b188e213cbe0737ae8ba3100000000000000000000000000000006]
+[971/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Unity.Robotics.ROSTCPConnector.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.dll, with 138 defines and 311 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[972/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.dll
+[973/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.pdb
+[974/991    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Robotics.ROSTCPConnector.ref.dll_8300D2858252BAE7.mvfrm
+[975/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll (+2 others) [CacheMiss fcfecca974e777356a7dab0c2f51246c00000000000000000000000000000006]
+[976/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll (+2 others) [CacheWrite fcfecca974e777356a7dab0c2f51246c00000000000000000000000000000006]
+[977/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Unity.Robotics.ROSTCPConnector.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Unity.Robotics.ROSTCPConnector.Editor.dll, with 136 defines and 322 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[978/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Editor.dll
+[979/991    0s] CopyFiles Library/ScriptAssemblies/Unity.Robotics.ROSTCPConnector.Editor.pdb
+[980/991    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Robotics.ROSTCPConnector.Editor.ref.dll_E4A693F71071983A.mvfrm
+[981/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm
+[982/991    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll.mvfrm
+[983/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll (+2 others)
+[984/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp.dll, with 138 defines and 363 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[985/991    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[986/991    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[987/991    0s] Csc Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[988/991    0s] ILPostProcess Library/Bee/artifacts/2400b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2400b0aE.dag/Assembly-CSharp-Editor.dll, with 136 defines and 388 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running Unity.Pipeline.CodeGen.CodeReloadInPlaceILPostProcessor
+[989/991    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[990/991    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (3.60 seconds), 55 items updated, 991 evaluated
+Total cache size 97501688
+Total cache size after purge 97501688, took 00:00:00.0482605
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Importing 'GUID: 523b0a80e9e1ea289dd7b9c528643f39 - Path: Packages/com.unity.robotics.ros-tcp-connector' with importer (DefaultImporter)
+Imported 'GUID: 523b0a80e9e1ea289dd7b9c528643f39' -> (Import Result ID: 'fd9bb5fe502de0b8876ab5b0f4a39a69') in 0.023 seconds [static dependencies only]. Details - ImportResultOutputID=fce92fe7f70f910e041b37b14c5905e6 DependenciesID=e03b7d4bf7144b5081ceddfa119bce53 StaticDependenciesID=1c4a3f6f213b8444e4b56008d9d1a9ed 
+Importing 'GUID: 0820ce25846584706ba50fcbd9d64eb2 - Path: Packages/com.unity.robotics.ros-tcp-connector/Tests' with importer (DefaultImporter)
+Imported 'GUID: 0820ce25846584706ba50fcbd9d64eb2' -> (Import Result ID: '1da084e2549b7b211e2e5330fc7d2eed') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=96b1f876a1b7717a99e59f2310be7a7d DependenciesID=8ba91e9b41f1da8b394ac2ff935a56fb StaticDependenciesID=fe8a055c12705fbd99f0c10a229c36dc 
+Importing 'GUID: 9c27dbcff0bc3e9458f51193b2168f52 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime' with importer (DefaultImporter)
+Imported 'GUID: 9c27dbcff0bc3e9458f51193b2168f52' -> (Import Result ID: 'c3b2471d0ad660393374b3f40ac7a0c1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b2f1a675557b6043cad7c982c7a22d14 DependenciesID=ccad732262091123ab14687917966f21 StaticDependenciesID=cd383597296dd5c67f0a056b87bcc87b 
+Importing 'GUID: feb133d3670993e4c957f5fdecba52e9 - Path: Packages/com.unity.robotics.ros-tcp-connector/Editor' with importer (DefaultImporter)
+Imported 'GUID: feb133d3670993e4c957f5fdecba52e9' -> (Import Result ID: '17f6a4e926e4d8b2b2ab26519e6c7869') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=97df33fa98e6a5d9184fe26f3ecbb221 DependenciesID=d0a41a7b16ae8277ec601370af437c72 StaticDependenciesID=980e0a6f325bc78405b58bad6be23cca 
+Importing 'GUID: f1dbe23e7c01048089d868e1fd960f8e - Path: Packages/com.unity.robotics.ros-tcp-connector/Tests/Runtime' with importer (DefaultImporter)
+Imported 'GUID: f1dbe23e7c01048089d868e1fd960f8e' -> (Import Result ID: '9357a5590defe0bea4e65ae2ae23e981') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a38bded64499199a8b63e3d4f091f3cc DependenciesID=58b80dcf28d9904ebc45d2ad4ba23481 StaticDependenciesID=b5415e0ba329d4c5aae6a2c5f84156b8 
+Importing 'GUID: b2760f5cab166f94cb3c026151c4b63b - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Extensions' with importer (DefaultImporter)
+Imported 'GUID: b2760f5cab166f94cb3c026151c4b63b' -> (Import Result ID: '8a60f9447d451aa7fc002d0896365d8a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=43b76c76f022487ea82f6f2ac92b9abb DependenciesID=e574e6b7f46ec62ed5cc9feaa8efd990 StaticDependenciesID=d5dc83294441048f6114625d859e01f5 
+Importing 'GUID: e2b5d17cd3f2d9f428a3d35e68df2397 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages' with importer (DefaultImporter)
+Imported 'GUID: e2b5d17cd3f2d9f428a3d35e68df2397' -> (Import Result ID: '28124c6947255761bbf17910e7739611') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7ef04ce4ff30d2c7c21b98b6348a7957 DependenciesID=477f1c196a3fd92bb181b88ec63fa825 StaticDependenciesID=3f1e7dc74d886760f3d93db8f6cd69cf 
+Importing 'GUID: 035ef6d98ef1aa24485e43c6f5ebfa13 - Path: Packages/com.unity.robotics.ros-tcp-connector/Editor/MessageGeneration' with importer (DefaultImporter)
+Imported 'GUID: 035ef6d98ef1aa24485e43c6f5ebfa13' -> (Import Result ID: '411cfe294c5c28b5aab7f3d83f057108') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8be1b259745594b0fd6c8a2fb1e5cb02 DependenciesID=cd11ec580fc0c90b2d15d49fec708f93 StaticDependenciesID=958d7b9ab7a7648648d61c2e04bd93a6 
+Importing 'GUID: 436258ef5c35ee84fa17bdfc0a058e72 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/ROSGeometry' with importer (DefaultImporter)
+Imported 'GUID: 436258ef5c35ee84fa17bdfc0a058e72' -> (Import Result ID: 'b3bb638774d1ad48caf6e3bc6fc7fb86') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1db928ece1319022781c02984ee58492 DependenciesID=1f47caf939153a8738dc1ffc206b54bc StaticDependenciesID=a71926bd8eb4b10d39d402cc21c40b5d 
+Importing 'GUID: a43830cf5a3d7454383415d9e3daa476 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/TcpConnector' with importer (DefaultImporter)
+Imported 'GUID: a43830cf5a3d7454383415d9e3daa476' -> (Import Result ID: '14f9969785c91273d0a71197d48b6156') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d1cd557cc0e43f23e63224e7a55fdf6c DependenciesID=6f9f175b0ce5c3c82f5fd9585a9fb697 StaticDependenciesID=665b77123680d23f64538c81803e190b 
+Importing 'GUID: 4616dc0a9ed5c49d5be98fe7520565ed - Path: Packages/com.unity.robotics.ros-tcp-connector/Tests/Editor' with importer (DefaultImporter)
+Imported 'GUID: 4616dc0a9ed5c49d5be98fe7520565ed' -> (Import Result ID: '8241ed134aeaa8f6732618e99ba8eb4f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ca92a1fd5209c4d156519e294bd1c57f DependenciesID=5b9905db91395720100f6091663f7d52 StaticDependenciesID=cd6b97378a4984146f982a4fd0ec9bda 
+Importing 'GUID: e955c3c91394316459e0bb81c8ab3e3c - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/MessageGeneration' with importer (DefaultImporter)
+Imported 'GUID: e955c3c91394316459e0bb81c8ab3e3c' -> (Import Result ID: 'de6870da03cbea9669f6c6195ac9c57c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a8d9651d5f990d22bbc2cf1b0e5ea797 DependenciesID=ec986711fe6f2609c4a9c2f2549adf14 StaticDependenciesID=4af67a3bdb5b1c4988ba1c27858afbd7 
+Importing 'GUID: 0052e2e5858302d45b8d8613eabca35e - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Std' with importer (DefaultImporter)
+Imported 'GUID: 0052e2e5858302d45b8d8613eabca35e' -> (Import Result ID: '3b817dfca32fb46350c321d9ad755f59') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cc82ce7b073dea46dc0e34c68c99b499 DependenciesID=3e209b5277e90200cf52541686ce8897 StaticDependenciesID=5eb396552d3c4b0c45003309c1a9211e 
+Importing 'GUID: 01cb9d60973b4394cae9e64ff3d61b02 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/ObjectRecognition' with importer (DefaultImporter)
+Imported 'GUID: 01cb9d60973b4394cae9e64ff3d61b02' -> (Import Result ID: 'e17c7ff825c3cd3aad4cdd472da93b73') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=91ab72010ac3312e44070507666ae655 DependenciesID=b55d313a160dcd2ee503c2ac8594682c StaticDependenciesID=a68dab1d3f11a9a463590be3493f4d1a 
+Importing 'GUID: 6257a7f92b7b24f428e9726e6bf59cb4 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Stereo' with importer (DefaultImporter)
+Imported 'GUID: 6257a7f92b7b24f428e9726e6bf59cb4' -> (Import Result ID: '4036d49834ae4206c2714250f257cc0f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e9e0b597c6921d4f96b2479f16528563 DependenciesID=9a70c13d0f0fd962eb1caf817f7469c3 StaticDependenciesID=5e7ef97c793353b71eda96d7e84a6ed8 
+Importing 'GUID: e2683b1af2dedfd4aaf53e30e90cedd3 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Shape' with importer (DefaultImporter)
+Imported 'GUID: e2683b1af2dedfd4aaf53e30e90cedd3' -> (Import Result ID: '038e23f56e1769c4ea68920ca6e4292e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3c04be7285de77b0c5a411894ea1d281 DependenciesID=221624502c625ee9929b86022f9002ce StaticDependenciesID=2258b3f23c9681f9d1e325b06b41717e 
+Importing 'GUID: a455ac661925595448aea7aab3069dde - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Sensor' with importer (DefaultImporter)
+Imported 'GUID: a455ac661925595448aea7aab3069dde' -> (Import Result ID: '0466ad500ce1c17ef307c1b16a47e7b1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=93dded80a3dcabb4b1051364320ab5d9 DependenciesID=834ee55a5c1f867d07fdf7bd5aaf8ec6 StaticDependenciesID=d297cce2c1a93b7ddab6528ca4e82a24 
+Importing 'GUID: a5e8e35917a9e0949a00177203401e5e - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Tf2' with importer (DefaultImporter)
+Imported 'GUID: a5e8e35917a9e0949a00177203401e5e' -> (Import Result ID: 'beebb91658426b65452c0fe042792e6d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8dc4b61a8c732f0805bf567973a3c50b DependenciesID=bb7855405e05ad99a6400c379aa745f3 StaticDependenciesID=c01724a45070fd390ed994feb5dbf38f 
+Importing 'GUID: e5962ccc8da3648479afd21afdfb74a5 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Rosgraph' with importer (DefaultImporter)
+Imported 'GUID: e5962ccc8da3648479afd21afdfb74a5' -> (Import Result ID: '309605bbe2301ad78f50a2e8981db95f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=91840718332055ffe76c9b7ace34d0ed DependenciesID=fdefafa82ec6559f670b2b03a2dc80a8 StaticDependenciesID=bc201ef5fb9bc46bc8d1428ccdde994f 
+Importing 'GUID: 5691dcf8f86e29545861aeaac4d648fe - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Nav' with importer (DefaultImporter)
+Imported 'GUID: 5691dcf8f86e29545861aeaac4d648fe' -> (Import Result ID: 'a3eb9d141b1a7d58ef1a32d054458ef6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1118fcc60aaf6d0a2b4a62118c62b708 DependenciesID=7d5cd43ea5f9381849f705460441534e StaticDependenciesID=92baa9895e0c7daa6b514aeabb4a3761 
+Importing 'GUID: 56bf4b982e9620e4ab0f5b2fb48ca3d9 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Visualization' with importer (DefaultImporter)
+Imported 'GUID: 56bf4b982e9620e4ab0f5b2fb48ca3d9' -> (Import Result ID: 'f57a053f0cdfcd915196e1193c086182') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8543f115b2861897818d37e30e1a64ba DependenciesID=ca89ad9d1ba93f27e7d72c92d35480a6 StaticDependenciesID=1a84d5548df73ff94d7a9faf9cf14be7 
+Importing 'GUID: 98d8085efea82b147925a9abf7ca487a - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/HandwrittenMessages' with importer (DefaultImporter)
+Imported 'GUID: 98d8085efea82b147925a9abf7ca487a' -> (Import Result ID: 'be650ac976e245db14900757e6ee602b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=52f3d19c0d9835ca780d5fd6c7d15119 DependenciesID=ebc395c7c256b015d52a7a1d16cadd08 StaticDependenciesID=7086105d09524a5c8551f97b084d45a9 
+Importing 'GUID: 5965d2d15392788418625988e3a627e6 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Trajectory' with importer (DefaultImporter)
+Imported 'GUID: 5965d2d15392788418625988e3a627e6' -> (Import Result ID: '1f2ed6b9eedbcb18b4e492493f9b4473') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f24ab4b5ed4f3f97ca689356b48cda3b DependenciesID=a19c5f5ad460a431056b221f32c727d5 StaticDependenciesID=e02f09cb9b55e355e15d68ee49730a70 
+Importing 'GUID: dae10f42cf3074a4bb9bd5a0afa66528 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Octomap' with importer (DefaultImporter)
+Imported 'GUID: dae10f42cf3074a4bb9bd5a0afa66528' -> (Import Result ID: '8b3c096de635cba27f9b75a793ee9eeb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7f3cd75e32d387b704a9bcc6e24918a4 DependenciesID=81545a8620b86eff9930c4107282815d StaticDependenciesID=5501c140e40bfefffcf3c3652c492280 
+Importing 'GUID: eb40e6ac7a318da469cda362bcba9533 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Diagnostic' with importer (DefaultImporter)
+Imported 'GUID: eb40e6ac7a318da469cda362bcba9533' -> (Import Result ID: '7e303724f716d7e11c3be48534958e57') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=84069c5fd7789e5a405d1dd1b62d6b05 DependenciesID=a3f3c6bfbfaa0a012e4761952b421fac StaticDependenciesID=595911b3ab06c49c094dd9a067dbdeef 
+Importing 'GUID: 8e1ca57a59f12c4418e49a7bf32db3a7 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Geometry' with importer (DefaultImporter)
+Imported 'GUID: 8e1ca57a59f12c4418e49a7bf32db3a7' -> (Import Result ID: 'ee6af4b7cb7b1d75cced3e78e0f97eca') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1765479741bf51f1afe8b720d2ecb85d DependenciesID=5af026083331adad3bc33264695dc91d StaticDependenciesID=60c86f77d4c2d6a0032d424d989c7a1b 
+Importing 'GUID: feca651c29cca2c4fbe5fc5482e5a4a5 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Actionlib' with importer (DefaultImporter)
+Imported 'GUID: feca651c29cca2c4fbe5fc5482e5a4a5' -> (Import Result ID: '8b8bdf19f08ad52ed8d9aa45bc4cc9bf') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b5594f6261155d2a853ca5fc88a0f269 DependenciesID=239e213b967054a0c2985275bbdb6811 StaticDependenciesID=c72ad405bc7af6b1e3fc982f782a2bdc 
+Importing 'GUID: 307686744e5d1b74d9966dcb6d9efee5 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/ObjectRecognition/srv' with importer (DefaultImporter)
+Imported 'GUID: 307686744e5d1b74d9966dcb6d9efee5' -> (Import Result ID: '97602257a257231ffce3758e54724cc0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=340132e1b64f92bfb4465f06cdfc663c DependenciesID=0b412f5db74527300e9185dc6770ec3c StaticDependenciesID=218e7b6151a8c872d4908fb9e458c562 
+Importing 'GUID: 806ac5e9d5cab0241a685bb1d9e628a5 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Std/srv' with importer (DefaultImporter)
+Imported 'GUID: 806ac5e9d5cab0241a685bb1d9e628a5' -> (Import Result ID: '23759ab3c1a60d9c0aa63aff17f50e32') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2e875c3f791507f70932fc98c7a0a897 DependenciesID=3a861809d19c122a499b38acf864d0e8 StaticDependenciesID=37ab55c6934733f4126f09f0bcc8b873 
+Importing 'GUID: 018787ef86060044289abb4d5514759c - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Std/msg' with importer (DefaultImporter)
+Imported 'GUID: 018787ef86060044289abb4d5514759c' -> (Import Result ID: '661a10211add9bbaf950a7fcace07791') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5c06f1db0c08b81aef6c8a457a37e8d1 DependenciesID=1d9a6f22ba272776e6afa4c96eaed777 StaticDependenciesID=39e443c681e49d0615f9303e6f3b2320 
+Importing 'GUID: b1b3b5f1db3168e4bae22d0602c2686b - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/HandwrittenMessages/action' with importer (DefaultImporter)
+Imported 'GUID: b1b3b5f1db3168e4bae22d0602c2686b' -> (Import Result ID: 'c3622e1b0e3c3897f808329a2c938504') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e2f65f20379f094ddf526794130102c9 DependenciesID=893f05329c27f0ae689def8a11d8fcc9 StaticDependenciesID=18f201e36b9e1555684c62e887ece167 
+Importing 'GUID: b1af9364b9b8d4d359a3bfd9db3ffd0d - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Tf2/srv' with importer (DefaultImporter)
+Imported 'GUID: b1af9364b9b8d4d359a3bfd9db3ffd0d' -> (Import Result ID: 'f5d3a6ea6725e80d651b84a8e5f7cdc2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=66d9e93ef3b3e4feef27ddf3d14b8ca1 DependenciesID=906a314efd97897c6bb01b093124519a StaticDependenciesID=f41aa8cc5432f1dc2faccb96a2cf6668 
+Importing 'GUID: 432ba063fdb372e4a9342393fc6eae2e - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Nav/srv' with importer (DefaultImporter)
+Imported 'GUID: 432ba063fdb372e4a9342393fc6eae2e' -> (Import Result ID: 'f5619ea5966a2c089af55c1379e2ab92') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=551e6633f34ddd417d939402ea811dd5 DependenciesID=2eb31b83fbbea49a77e8acad60bd9a04 StaticDependenciesID=b5b4fb9e907a5945b3a618f94a995756 
+Importing 'GUID: 34a3457b5e38f944cb50a107a805cdf5 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Stereo/msg' with importer (DefaultImporter)
+Imported 'GUID: 34a3457b5e38f944cb50a107a805cdf5' -> (Import Result ID: 'c929729dae0c32d05271878832ab7e77') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=31f71f0c958a0a380d593334e9943350 DependenciesID=7767687d842d4b65ba30e2494debf10b StaticDependenciesID=86e776010eb561d5958f05270cdda164 
+Importing 'GUID: 642ce86345211834d8fe021d6ecd1104 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Actionlib/msg' with importer (DefaultImporter)
+Imported 'GUID: 642ce86345211834d8fe021d6ecd1104' -> (Import Result ID: '6f03b175770aa0064ed883b6b7290a8f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=97381a4617e22ca53716a3ff3f078021 DependenciesID=728e317baf127184fb7994a2cc3f45dc StaticDependenciesID=fcb38f384be23ccdd95edb92b0dff422 
+Importing 'GUID: a4de96b4b3320d243bf0ad04697a80ff - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Shape/msg' with importer (DefaultImporter)
+Imported 'GUID: a4de96b4b3320d243bf0ad04697a80ff' -> (Import Result ID: '52547157e33bb4654028b57b40ec9b80') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f4d26f5eb052d5db3d1c2403f5bd4e7b DependenciesID=49953cdba1d28174c8f65103c871e4bd StaticDependenciesID=7fced66ca85648946cdf7b9fd1e6151d 
+Importing 'GUID: 1549a2716409b4ac38a8bbb432fcbcdb - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Rosgraph/msg' with importer (DefaultImporter)
+Imported 'GUID: 1549a2716409b4ac38a8bbb432fcbcdb' -> (Import Result ID: '16710a9cc01d353ad5131d1155ef0a1f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9787eb5ae77295bfa6ed38dc932dcd53 DependenciesID=f1c434b8884d4a8a345aa43ff9b09598 StaticDependenciesID=15a097d64f3b89f08cac77c07b0c4edc 
+Importing 'GUID: 25a4d322892761543b211f79db5a3e61 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Geometry/msg' with importer (DefaultImporter)
+Imported 'GUID: 25a4d322892761543b211f79db5a3e61' -> (Import Result ID: '5f6c1da9c7eba138fdc963a8ca51e1d2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=be7c8c9b50ce83899464639f1b1b3dfc DependenciesID=9fb35090b7d44f0241cfbf568c7f689a StaticDependenciesID=6c8dec3edfcd92ea51e1e4a17fdd4b89 
+Importing 'GUID: a728c13d976ace742af9268ebae0a81a - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Sensor/msg' with importer (DefaultImporter)
+Imported 'GUID: a728c13d976ace742af9268ebae0a81a' -> (Import Result ID: 'cbde267ba38b92997ccd6e98f2702783') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=54963c104e3dc150e65fd97cf655022c DependenciesID=f7204503aff47891e4724fa1ff506e03 StaticDependenciesID=f12675edd23ebdd4e34ea0faf5917eea 
+Importing 'GUID: 983d85a1b0c8af04d925125bf4a46d1b - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Octomap/srv' with importer (DefaultImporter)
+Imported 'GUID: 983d85a1b0c8af04d925125bf4a46d1b' -> (Import Result ID: 'fb5e779f7de02a14b6464617873a08cd') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a6da104aa0f80bcfb2152d1cfcd4ce7f DependenciesID=c11465aa2c1af4eda574cb3bc341b3d9 StaticDependenciesID=c2cbc762fad4299a36fbc1d9e9b162f0 
+Importing 'GUID: b842fa76cff120c488919719dfdc910c - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Visualization/msg' with importer (DefaultImporter)
+Imported 'GUID: b842fa76cff120c488919719dfdc910c' -> (Import Result ID: '8e72930812b92b075a5830c0afe71529') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=bab613ebb19e3c451e5abef143827024 DependenciesID=191b9e05238ac35df610ecceb7f28af7 StaticDependenciesID=f12e2651106fdd667d4800dc1009069c 
+Importing 'GUID: 1a09c5a764d99354ca5dce0d9cd3c651 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Visualization/srv' with importer (DefaultImporter)
+Imported 'GUID: 1a09c5a764d99354ca5dce0d9cd3c651' -> (Import Result ID: 'bf39d08f0a96297d1fa813b76c39380f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=851b0ea9cfd8d0cd564d7ef1d82896c5 DependenciesID=e8faf4a297652d131a9e5c10c2afd831 StaticDependenciesID=401e4e88f9e4a356632e34fbbe751ab0 
+Importing 'GUID: 5a6978a194e618c45acb5f8c34bad22a - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Trajectory/msg' with importer (DefaultImporter)
+Imported 'GUID: 5a6978a194e618c45acb5f8c34bad22a' -> (Import Result ID: 'f7d9bf5f7b285f7b8a75ec26f47d9f26') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=145b4980ab22f38af8c9ce1cf64ce751 DependenciesID=01b2fc9bb6f3b30f35b0edc2c3f0d863 StaticDependenciesID=1927d5b802c39b0c3a5089a461bca7fa 
+Importing 'GUID: 6a6d59cb033eebf4a9cd83f22cd4a53f - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Nav/action' with importer (DefaultImporter)
+Imported 'GUID: 6a6d59cb033eebf4a9cd83f22cd4a53f' -> (Import Result ID: 'c74368cab22b204a4870d81642568c73') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3dc8f38db25d87465df4fa9a5677402c DependenciesID=3c807e224681e33b03ad1fe4a40f35f9 StaticDependenciesID=7d7d32bddd6b196619ded920ec7e6395 
+Importing 'GUID: caeb777ca0e45a94cae6398e5c738541 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/ObjectRecognition/msg' with importer (DefaultImporter)
+Imported 'GUID: caeb777ca0e45a94cae6398e5c738541' -> (Import Result ID: '66982475e493caee8a9fd2a28cc97f00') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ff6660840cd2ea07430a5024ecaa5885 DependenciesID=aa7d8cac9de6a3c1257716d04ab5d03a StaticDependenciesID=349aaefea134a9ac5c3341f91d5e45c5 
+Importing 'GUID: 0b6b3d2d672dbe64ba183c40de8c83f4 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Sensor/srv' with importer (DefaultImporter)
+Imported 'GUID: 0b6b3d2d672dbe64ba183c40de8c83f4' -> (Import Result ID: '8c1aa440d4b1790e754faf3c86c87080') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2a751f3066b292666731b651d48fc39d DependenciesID=eefc23b3acd09ffb470da48ea096e718 StaticDependenciesID=fac090cd2e6830d0e997f2431c499c9b 
+Importing 'GUID: 2bed088a6d5f35a4f8dd52f30f48ae10 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Diagnostic/srv' with importer (DefaultImporter)
+Imported 'GUID: 2bed088a6d5f35a4f8dd52f30f48ae10' -> (Import Result ID: 'c77c8f65bfd1ee0fb63f8aba71c95789') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b7b1a2000a05a2df451e21b37072f01a DependenciesID=298c492dd9f1b119068d0e240cd4221e StaticDependenciesID=88891b8bbe6e5c12d371ccde0f757c4f 
+Importing 'GUID: 3cb569a6be92f6b4eb0863ae5396237a - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Diagnostic/msg' with importer (DefaultImporter)
+Imported 'GUID: 3cb569a6be92f6b4eb0863ae5396237a' -> (Import Result ID: '50587ad3d4f9825ef38ab99023a9474c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=74ca032456cd10e2394e7c07042e56f2 DependenciesID=0d677dad9d46dc24400716fffba294d2 StaticDependenciesID=6ac404eed27cfbadf175cb9ee9be56d7 
+Importing 'GUID: bc19552f59eb33542b264a6b62bb2f0c - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/ObjectRecognition/action' with importer (DefaultImporter)
+Imported 'GUID: bc19552f59eb33542b264a6b62bb2f0c' -> (Import Result ID: '2105f5184f4eefdd551208a84b5793f9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=aca965b2748d7ef431b31f9667e43b22 DependenciesID=a48866bec4f47a21a6f3d15bfc74c01b StaticDependenciesID=f06f6d95ffd01f3c130267da5f0f2217 
+Importing 'GUID: dce99d42918c044d9b04c887e1d5e42b - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Tf2/msg' with importer (DefaultImporter)
+Imported 'GUID: dce99d42918c044d9b04c887e1d5e42b' -> (Import Result ID: 'a24af093dfc4de06b015cdaa13009577') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=dcf7b570f062d816172979d796beb03d DependenciesID=61921f411d09161e2001c7abc0a81a9f StaticDependenciesID=d296ecdf3dd6d777d8bf652ea96dba51 
+Importing 'GUID: 1dbabffde68444d8ba7a9fc06b3730f4 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Tf2/action' with importer (DefaultImporter)
+Imported 'GUID: 1dbabffde68444d8ba7a9fc06b3730f4' -> (Import Result ID: '418e86f6f35e23eafedfa9edd2c4373c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a28adc60bd0fa4bbbbd4b10426808a7b DependenciesID=16a4019fc9dcbdacb3ae6ef8cefe8d0f StaticDependenciesID=aee356eeb02895e0bcdee10255c5657f 
+Importing 'GUID: adb9e56ee9dd5d240a851237dab681e8 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/HandwrittenMessages/msg' with importer (DefaultImporter)
+Imported 'GUID: adb9e56ee9dd5d240a851237dab681e8' -> (Import Result ID: '6a2418442bf8f62666d57bdaff6dd8c5') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5a8af355a331cad9cf5bd8e66c47625e DependenciesID=d29e47b0bb5f40cb1fae5f430d31e0e0 StaticDependenciesID=8d2a592a9869b4a523d05dc3e7a0e353 
+Importing 'GUID: 0eba4428046e55c40aa2fe8282863270 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Octomap/msg' with importer (DefaultImporter)
+Imported 'GUID: 0eba4428046e55c40aa2fe8282863270' -> (Import Result ID: '271e3d0be290757300ed1edbe1edbe2d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e635b641fc9cc3f5ad3714c81c357a7a DependenciesID=897c895e70436bba7638de4c46861bbe StaticDependenciesID=54fbdf118217bfda0418c419baaa2bb6 
+Importing 'GUID: 3e61c6cae05a26e46a24cf4fb2480aa9 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Nav/msg' with importer (DefaultImporter)
+Imported 'GUID: 3e61c6cae05a26e46a24cf4fb2480aa9' -> (Import Result ID: 'dee401292794dd528e0ad501cde55683') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=19c87fd2b91ed086ec6e7ff51ca07c81 DependenciesID=3ccbc24e0d18e8c7e65ff939262bcd63 StaticDependenciesID=123cd2fc79b7e39d0b32f8a94e8e284e 
+Importing 'GUID: 81a8d927962924fcda7897440da59f5f - Path: Packages/com.unity.robotics.ros-tcp-connector/Tests/Runtime/Unity.Robotics.RosTcpConnector.Runtime.Tests.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 81a8d927962924fcda7897440da59f5f' -> (Import Result ID: '705114e2df2dc65c7b1595fe9407d079') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e76c3c4c5fc1bf240ae5e16ced3ea306 DependenciesID=97c3377a03c88ca481f4f6366a7862cf StaticDependenciesID=cb7ae6124a36507aa5ba9df1b978f6e1 
+Importing 'GUID: 625bfc588fb96c74696858f2c467e978 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Unity.Robotics.ROSTCPConnector.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 625bfc588fb96c74696858f2c467e978' -> (Import Result ID: '3827ed1c14a5dd181d4a2564a5db14eb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c19999110abe7dbdd3d11722249c0b44 DependenciesID=8c9fa4147bc948e51d0ab1de15d5381f StaticDependenciesID=478a3e7e0f8517a678c0daff2a89f3fb 
+Importing 'GUID: ba58c43074cf72549aa2ac5937dae44b - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/Messages/Unity.Robotics.ROSTCPConnector.Messages.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: ba58c43074cf72549aa2ac5937dae44b' -> (Import Result ID: 'bfb1cf876fb5e0181f3371574da1289d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=deb0df1a27276de0880b410f09a69005 DependenciesID=74ac7b7b8268ebf1b81714b2a1af51b1 StaticDependenciesID=1126769bdb30b0e9f8977d75b8f48ce7 
+Importing 'GUID: 1da8e23352f14494396eac5033ba9894 - Path: Packages/com.unity.robotics.ros-tcp-connector/Editor/Unity.Robotics.ROSTCPConnector.Editor.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 1da8e23352f14494396eac5033ba9894' -> (Import Result ID: '53285387d39cf85814c673c6afd17df4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c653e64fd623e1792748db21874079ff DependenciesID=3002f6179c820b99db4f24b7679be9a0 StaticDependenciesID=a9c1fc78f7e7e9d766b374a18c992905 
+Importing 'GUID: 5db6cbfd5d0e86a46862a70f4b4067f2 - Path: Packages/com.unity.robotics.ros-tcp-connector/Runtime/MessageGeneration/Unity.Robotics.ROSTCPConnector.MessageGeneration.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 5db6cbfd5d0e86a46862a70f4b4067f2' -> (Import Result ID: 'f2ad03a1c2516c78097c3e5bfdcaa116') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d4e2342c22f3c4c393fcdba9d1ab2ca1 DependenciesID=c19da617d3623f4653e334ed0e9bbcad StaticDependenciesID=07ff8b6f1718e0eb2943a44ff0c6f277 
+Importing 'GUID: 0e66fbb4ae0104cf59f4638cd2a165c1 - Path: Packages/com.unity.robotics.ros-tcp-connector/Tests/Editor/Unity.Robotics.ROSTCPConnector.Editor.Tests.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 0e66fbb4ae0104cf59f4638cd2a165c1' -> (Import Result ID: 'dc949cbe8306d7ad541b2a8a2c031060') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21f48c0a0e6914152227a5ef42fced83 DependenciesID=5e8eae04abdfa85f455c3818e5d0b844 StaticDependenciesID=9bab85527b8602e8518a5d947564edf5 
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unhandled description string [
+Unhandled description string ]
+Start HTTP server: port:7800
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+Unhandled description string [
+Unhandled description string ]
+- Finished resetting the current domain, in  3.650 seconds
+Domain Reload Profiling: 5315ms
+	BeginReloadAssembly (806ms)
+		DisableScriptedObjects (210ms)
+		CreateAndSetChildDomain (293ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (186ms)
+		TypeCache.Refresh (19ms)
+			TypeCache.ScanAssembly (5ms)
+		AnalyzeDomain (329ms)
+			BuildScriptInfoCaches (308ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3652ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (386ms)
+			ProcessInitializeOnLoadAttributes (832ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (1392ms)
+Importing 'GUID: f6792081d1ee04453853e977157551f7 - Path: Packages/com.unity.robotics.ros-tcp-connector/CHANGELOG.md' with importer (TextScriptImporter)
+Imported 'GUID: f6792081d1ee04453853e977157551f7' -> (Import Result ID: 'cd6166e81b5fed0374387d8f7809d8fd') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=0bebde7949b9556c77541d9dccb9e47a DependenciesID=35868db3b876f82db0dfe655d3efa8ed StaticDependenciesID=144594cde63c455addf4dae9ed9055db 
+Importing 'GUID: f91f43e178f3f29488e075d6bf35659c - Path: Packages/com.unity.robotics.ros-tcp-connector/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: f91f43e178f3f29488e075d6bf35659c' -> (Import Result ID: '0f40fe2162f977ef5c781137fd511e9e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=5a9fe239bcf28935f06365ebd2dc360e DependenciesID=22e10b82c20797957186b8a73cd1405f StaticDependenciesID=e79412049932cf8473f1853d721c4990 
+
+Asset Pipeline Refresh (id=dc03e5c8ba82b43d2a7015d4058413df): Total: 13.149 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=61 (actual=61, local cache=0, cache server=0)
+		Asset DB Process Time: managed=9 ms, native=4754 ms
+		Asset DB Callback time: managed=122 ms, native=318 ms
+		Scripting: domain reloads=1, domain reload time=1727 ms, compile time=6216 ms, other=0 ms
+		Project Asset Count: scripts=1475, non-scripts=2336
+		Asset File Changes: new=294, changed=294, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 286.690ms
+	ApplyChangesToAssetFolders: 0.737ms
+	Scan: 754.125ms
+	Collect global state as custom dependencies: 4.051ms
+	OnSourceAssetsModified: 2.333ms
+	CategorizeScriptCompilationAssets: 2.179ms
+	ProcessAssetsWithTransientArtifactChanges: 21.656ms
+	CategorizeAssets: 72.937ms
+	CompileScripts: 6216.484ms
+	ImportOutOfDateAssets: 3768.559ms (3659.793ms without children)
+		ImportManagerImport: 99.265ms (8.805ms without children)
+			UpdateCategorizedAssets: 0.402ms
+		CollectScriptTypesHashes: 1.102ms
+		ReloadNativeAssets: 5.342ms
+		UnloadImportedAssets: 0.599ms
+		ReloadImportedAssets: 0.255ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.253ms
+		ImportSchedulerStart: 2.209ms
+	PostProcessAllAssets: 148.089ms
+		AssemblyValidation.PostprocessAllAssets 17.089ms
+		PostProcessCallbackCreateDeferredMaterials 1.619ms
+		VersionControlSettings.HiddenFilePostprocess 1.580ms
+		PostprocessAssetsUpdateCachedIcon 1.327ms
+		XRBuildSystem.XRAssetImported 1.202ms
+		ShaderAssetModifiedCallback 0.835ms
+		ComputeShaderImportPostprocess 0.639ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.590ms
+		RaytracingShaderImportPostprocess 0.586ms
+		SpeedTreeImporter.PostprocessAllAssets 0.391ms
+		BlockShaderImporter.PostprocessAllAssets 0.315ms
+		MonoPostProcessAllAssets: 116.749ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 24.698ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 14.885ms
+			AssetChangedListener.OnPostprocessAllAssets 12.132ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.153ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.254ms
+			PostProcessor.OnPostprocessAllAssets 3.344ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.266ms
+			MaterialPostprocessor.OnPostprocessAllAssets 2.821ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.695ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 2.483ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.211ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.891ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.874ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.469ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.428ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.266ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.836ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.707ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.648ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.635ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.483ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.426ms
+			AssetEvents.OnPostprocessAllAssets 0.410ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.359ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.290ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.287ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.282ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.281ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.279ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.267ms
+			SyncVS.PostprocessSyncProject 0.262ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.242ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.206ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.149ms
+	PostAssetChangesProfiler: 6.003ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.161ms
+	PersistCurrentRevisions: 1.346ms
+	GenerateScriptTypeHashes: 10.578ms
+	GenerateScriptTypeSerializationHashes: 18.928ms
+	Untracked: 1864.317ms
+
+[MODES] ModeService[default].LoadModes
+GPUResidentDrawer The current platform does not support UnityEngine.Rendering.BatchBufferTarget
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.GPUResidentDrawer:LogMessage (string,UnityEngine.LogType) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs:122)
+UnityEngine.Rendering.GPUResidentDrawer:Recreate (UnityEngine.Rendering.GPUResidentDrawerSettings) (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:395)
+UnityEngine.Rendering.GPUResidentDrawer:Reinitialize () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.cs:342)
+UnityEngine.Rendering.IGPUResidentRenderPipeline:ReinitializeGPUResidentDrawer () (at ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/IGPUResidentRenderPipeline.cs:100)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0ffb3d4f1461/Runtime/Data/UniversalRenderPipelineAsset.cs:811)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:15)
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:172)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:146)
+UnityEditor.Handles:Internal_DrawCameraWithGrid (UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters&,bool,bool)
+UnityEditor.Handles:DrawCameraImpl (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,bool,UnityEditor.DrawGridParameters,bool,bool,bool,UnityEngine.GameObject[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1675)
+UnityEditor.Handles:DrawCameraStep1 (UnityEngine.Rect,UnityEngine.Camera,UnityEditor.DrawCameraMode,UnityEditor.DrawGridParameters,bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Handles/Handles.cs:1698)
+UnityEditor.SceneView:DoDrawCamera (UnityEngine.Rect,UnityEngine.Rect,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2567)
+UnityEditor.SceneView:DoOnGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2891)
+UnityEditor.SceneView:OnSceneGUI () (at /home/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:2799)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:387)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:716)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:573)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,System.Exception&) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderers.cs:186)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Texture,UnityEngine.UIElements.UIR.ShaderInfoAllocator,System.Nullable`1<UnityEngine.Rect>,UnityEngine.Rect,single,bool,UnityEngine.UIElements.TextureSlotCount,bool,System.Exception&,UnityEngine.UIElements.BaseVisualElementPanel) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRenderer/UIRenderDevice.cs:983)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree,UnityEngine.RenderTexture,UnityEngine.RectInt,UnityEngine.Rect) (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:604)
+UnityEngine.UIElements.UIR.RenderTreeManager:RenderRootTree () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRenderTreeManager.cs:549)
+UnityEngine.UIElements.UIRRepaintUpdater:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Renderer/UIRRepaintUpdater.cs:160)
+UnityEngine.UIElements.BaseVisualElementPanel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1040)
+UnityEngine.UIElements.Panel:Render () (at /home/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:1851)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:62)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /home/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.core@2862bc571443/Runtime/GPUDriven/GPUResidentDrawer.Validator.cs Line: 122)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unhandled description string [
+Unhandled description string ]
+[Worker2] Imported GUID: 9c53962885c2c4f449125a979d6ad240 - Path: Assets/Scenes - Importer: PreviewImporter -> (ImportResultId: '5564a76921880800cb70ccb99edc2f9c') in 0.022240815 seconds
+[Worker2] Imported GUID: 709f11a7f3c4041caa4ef136ea32d874 - Path: Assets/Settings - Importer: PreviewImporter -> (ImportResultId: 'fb64a58e3bf9acc0d919dd62c831aa30') in 0.012816294 seconds
+[Worker2] Imported GUID: f91f43e178f3f29488e075d6bf35659c - Path: Packages/com.unity.robotics.ros-tcp-connector/package.json - Importer: PreviewImporter -> (ImportResultId: '584e8cbb311a9ba06795944980beb16c') in 0.042169326 seconds
+Unhandled description string [
+Unhandled description string ]
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Asset Pipeline Refresh (id=783e8450a1ec07d3688dafca14e71d82): Total: 0.049 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e221451cce1ca8f7d8dd4dff9039ceaf - Path: Assets/Unity_ADCS_Part.unity' with importer (DefaultImporter)
+Imported 'GUID: e221451cce1ca8f7d8dd4dff9039ceaf' -> (Import Result ID: 'aa0b80a08f66d7b79981ee6dea4c97b4') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=ca34279356f97ad91a0a78393549a5ac DependenciesID=91b2776bb2be3b921adbc088d8a59a50 StaticDependenciesID=8f2b8c99ed72f072bf8085ddf78607c5 
+Asset Pipeline Refresh (id=fe393a753a7495bdeb013267452cf079): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1fb35e89e5657e4a99d4555468f4ec61): Total: 0.109 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 62762; Successful remaps: 25734
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Unity Assets/Unity-Ros-ADCS/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/pontus-akerman/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEditor.ContainerWindow:Close () (at /home/bokken/build/output/unity/unity/Editor/Mono/ContainerWindow.cs:435)
+UnityEditor.ContainerWindow:RequestCloseSentByNativeCode () (at /home/bokken/build/output/unity/unity/Editor/Mono/ContainerWindow.cs:447)
+UnityEditor.GUIView:Internal_Close ()
+UnityEditor.GUIView:OnDestroy () (at /home/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:282)
+UnityEditor.HostView:OnDestroy () (at /home/bokken/build/output/unity/unity/Editor/Mono/HostView.cs:378)
+UnityEditor.DockArea:OnDestroy () (at /home/bokken/build/output/unity/unity/Editor/Mono/GUI/DockArea.cs:161)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEditor.View:OnDestroy () (at /home/bokken/build/output/unity/unity/Editor/Mono/View.cs:180)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEditor.ContainerWindow:Close () (at /home/bokken/build/output/unity/unity/Editor/Mono/ContainerWindow.cs:435)
+UnityEditor.ContainerWindow:RequestCloseSentByNativeCode () (at /home/bokken/build/output/unity/unity/Editor/Mono/ContainerWindow.cs:447)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/ContainerWindow.cs line 435]
+
+Pipeline Server stopped
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-pontus-akerman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-pontus-akerman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 118
+
+SDL leaked 2 allocations
+Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790786854669,"processId":449120,"allocatedMemory":13875866,"memoryLabels":[{"Default":232486},{"Permanent":16225},{"Thread":1052296},{"Manager":820593},{"VertexData":8},{"Geometry":408},{"Texture":24},{"Shader":858002},{"Material":68},{"GfxDevice":36608},{"Animation":1016},{"Audio":624},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16184},{"Input":60256},{"JobScheduler":256},{"TextLib":40572},{"Mono":80},{"MonoCode":192},{"ScriptingNativeRuntime":155088},{"BaseObject":52000},{"Resource":1076},{"Renderer":2368},{"Transform":4717},{"File":33926},{"WebCam":80},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":1524899},{"StaticString":3808},{"Utility":2677552},{"PoolAlloc":2152},{"AI":80},{"TypeTree":637455},{"ScriptManager":25312},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7408},{"Director":8280},{"CloudService":8288},{"WebRequest":4578},{"VR":49554},{"SceneManager":640},{"Video":64},{"LazyScriptCache":32},{"NativeArray":1620},{"Camera":729},{"Secure":8225},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57552},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1436},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267680},{"EditorUtility":80507},{"VersionControl":8},{"Undo":963},{"AssetDatabase":4721332},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1836},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":216},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2520},{"Windowing":480},{"Licensing":12726},{"AssetReference":32},{"IPCStream":32}]}
