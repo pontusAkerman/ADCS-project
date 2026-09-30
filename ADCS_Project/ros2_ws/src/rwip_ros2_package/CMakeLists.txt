@@ -16,10 +16,20 @@ find_package(std_msgs REQUIRED)
 #add_executable(pythonNode_ccp src/pythonNode_ccp.cpp)
 #ament_target_dependencies(pythonNode_ccp rclcpp)
 
+# Python Node
+install(
+  PROGRAMS
+    scripts/controller_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Controller.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
  )
+
+ 
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

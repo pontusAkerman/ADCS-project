@@ -4,3 +4,5 @@ rwip_ros2_package.egg-info/PKG-INFO
 rwip_ros2_package.egg-info/SOURCES.txt
 rwip_ros2_package.egg-info/dependency_links.txt
 rwip_ros2_package.egg-info/top_level.txt
+rwip_ros2_package/msg/__init__.py
+rwip_ros2_package/msg/_controller.py

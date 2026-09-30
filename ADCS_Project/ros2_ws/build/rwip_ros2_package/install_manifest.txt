@@ -1,3 +1,4 @@
+/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/rwip_ros2_package/controller_node.py
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/ament_index/resource_index/rosidl_interfaces/rwip_ros2_package
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/msg/Controller.json
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.c

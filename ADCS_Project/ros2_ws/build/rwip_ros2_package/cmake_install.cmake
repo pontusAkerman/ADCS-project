@@ -43,6 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rwip_ros2_package" TYPE PROGRAM FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package/scripts/controller_node.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/rwip_ros2_package")
 endif()
 
