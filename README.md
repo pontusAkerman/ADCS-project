@@ -472,3 +472,21 @@ git push -u origin descriptive-name
 ```
 
 * #### 6. Create a *Pull Request*
+
+# <p style="text-align: center;">**Basic ROS2 C++ guide**</p>
+
+## Installation
+You can install ROS2 through a few different means, the way I did it originally was to download from a deb package and then run it through the terminal
+
+## ROS2 Workspace
+A work space for ROS2 can be setup easiest through visual studio code, by first opening a folder, then opening a terminal window and run `source install/setup.bash`
+
+After that we have to build the workspace by using `colcon build` which is a command that will be used often in order to update your workspace when changes have been made.
+
+If you have moved your workspace and would like to rebuild it including all your packages and Cmake lists etc, use `rm -rf build install log` and `colcon build` inside your ros2_ws location. This will rebuild the log of the workspace.
+
+## ROS2 Packages
+
+Packages is a collection of functionality in ROS, where you have your collection of scripts etc that can later be imported etc for different projects or if other functions are needed for a specific node. to create a CMake (C++) package you can write: `ros2 pkg create --build-type ament_cmake <package_name>` otherwhise if you want to make a Python package you can write: `ros2 pkg create --build-type ament_python <package_name>`
+
+
