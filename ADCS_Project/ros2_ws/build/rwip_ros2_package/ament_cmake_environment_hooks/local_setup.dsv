@@ -1,0 +1,4 @@
+source;share/rwip_ros2_package/environment/ament_prefix_path.sh
+source;share/rwip_ros2_package/environment/library_path.sh
+source;share/rwip_ros2_package/environment/path.sh
+source;share/rwip_ros2_package/environment/pythonpath.sh

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a71023a1c13068b349a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rwip_ros2_package__py",
+					"jsonFile" : "directory-rwip_ros2_package__py-6ce3cb77ca7924fc53bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "rwip_ros2_package__rs",
+					"jsonFile" : "directory-rwip_ros2_package__rs-72b07c79038a12f1486a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "rwip_ros2_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rwip_ros2_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rwip_ros2_package_egg-6d5fcf430adcbabc7ae9.json",
+					"name" : "ament_cmake_python_build_rwip_ros2_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rwip_ros2_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rwip_ros2_package-94b60d94b683ae15b104.json",
+					"name" : "ament_cmake_python_copy_rwip_ros2_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package-bcf22e794cab37386ec6.json",
+					"name" : "rwip_ros2_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__cpp-9f1345221f075481bf4f.json",
+					"name" : "rwip_ros2_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rwip_ros2_package__py::@863ca077ba73c3ccaa23",
+					"jsonFile" : "target-rwip_ros2_package__py-2df67967ce2590de34c8.json",
+					"name" : "rwip_ros2_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_generator_c-58fe5ad6f1fd91e2e013.json",
+					"name" : "rwip_ros2_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_generator_py-cfdf7db54e466a429a05.json",
+					"name" : "rwip_ros2_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_generator_type_description-59f4871213e219a1f72b.json",
+					"name" : "rwip_ros2_package__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_c-dc086483bf8822125431.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_cpp-594bced2a5a05d5a7d1a.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_fastrtps_c-584b93bd7d504453dbad.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_fastrtps_cpp-711188b442c62a36224a.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_introspection_c-7f8c4cf76708ba2b85f8.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package__rosidl_typesupport_introspection_cpp-5acea7df45124fabcd45.json",
+					"name" : "rwip_ros2_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rwip_ros2_package__rs::@a9ed223606179ed57a50",
+					"jsonFile" : "target-rwip_ros2_package__rs-007f1294befa0d8687e6.json",
+					"name" : "rwip_ros2_package__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package_s__rosidl_typesupport_c-e08833a11b287acd7bbe.json",
+					"name" : "rwip_ros2_package_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package_s__rosidl_typesupport_fastrtps_c-53dd83404be2c1394359.json",
+					"name" : "rwip_ros2_package_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package_s__rosidl_typesupport_introspection_c-3380d4b117c0fe6a0bb2.json",
+					"name" : "rwip_ros2_package_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rwip_ros2_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rwip_ros2_package_uninstall-665f657f9822544167a9.json",
+					"name" : "rwip_ros2_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c878e36b31e456e231f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package",
+		"source" : "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

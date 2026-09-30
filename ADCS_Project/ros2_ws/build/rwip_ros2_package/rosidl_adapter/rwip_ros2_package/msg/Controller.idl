@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rwip_ros2_package/msg/Controller.msg
+// generated code does not contain a copyright notice
+
+
+module rwip_ros2_package {
+  module msg {
+    struct Controller {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

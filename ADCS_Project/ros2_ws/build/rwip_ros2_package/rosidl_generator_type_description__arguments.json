@@ -1,0 +1,12 @@
+{
+  "package_name": "rwip_ros2_package",
+  "output_dir": "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_type_description/rwip_ros2_package",
+  "idl_tuples": [
+    "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package:msg/Controller.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

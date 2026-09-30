@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rwip_ros2_package__py",
+		"source" : "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py"
+	}
+}

@@ -1,0 +1,248 @@
+[0.015s] Invoking command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package -DCMAKE_INSTALL_PREFIX=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.165s] -- The CXX compiler identification is GNU 13.3.0
+[0.188s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.310s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.451s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.463s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.466s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.625s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.845s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.860s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.924s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.927s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.059s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.164s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.869s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.270s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.417s] -- Found PythonExtra: /usr/bin/python3  
+[3.883s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.024s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.044s] -- Added test 'lint_cmake' to check CMake code style
+[4.046s] -- Added test 'xmllint' to check XML markup files
+[4.050s] -- Configuring done (4.0s)
+[4.096s] -- Generating done (0.0s)
+[4.110s] -- Build files have been written to: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package
+[4.129s] Invoked command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package -DCMAKE_INSTALL_PREFIX=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package
+[4.131s] Invoking command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package -- -j16 -l16
+[4.195s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.195s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.207s] [  5%] Built target ament_cmake_python_copy_rwip_ros2_package
+[4.415s] [  5%] Built target rwip_ros2_package__rosidl_generator_type_description
+[4.424s] running egg_info
+[4.425s] creating rwip_ros2_package.egg-info
+[4.430s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.444s] writing rwip_ros2_package.egg-info/PKG-INFO
+[4.444s] writing dependency_links to rwip_ros2_package.egg-info/dependency_links.txt
+[4.445s] writing top-level names to rwip_ros2_package.egg-info/top_level.txt
+[4.445s] writing manifest file 'rwip_ros2_package.egg-info/SOURCES.txt'
+[4.446s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.446s] [ 11%] Built target rwip_ros2_package__rs
+[4.497s] reading manifest file 'rwip_ros2_package.egg-info/SOURCES.txt'
+[4.498s] writing manifest file 'rwip_ros2_package.egg-info/SOURCES.txt'
+[4.546s] [ 11%] Built target ament_cmake_python_build_rwip_ros2_package_egg
+[4.675s] [ 11%] Built target rwip_ros2_package__cpp
+[4.699s] [ 20%] [32mBuilding C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/controller__type_support.c.o[0m
+[4.699s] [ 20%] [32mBuilding C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/controller__description.c.o[0m
+[4.699s] [ 20%] [32mBuilding C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/controller__functions.c.o[0m
+[4.754s] [ 22%] [32m[1mLinking C shared library librwip_ros2_package__rosidl_generator_c.so[0m
+[4.804s] [ 22%] Built target rwip_ros2_package__rosidl_generator_c
+[4.817s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.817s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.818s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.818s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.818s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.818s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.103s] [ 42%] [32mBuilding CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/rwip_ros2_package/msg/controller__type_support.cpp.o[0m
+[5.110s] [ 45%] [32mBuilding CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/controller__type_support.cpp.o[0m
+[5.118s] [ 48%] [32mBuilding CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rwip_ros2_package/msg/detail/controller__type_support.cpp.o[0m
+[5.153s] [ 51%] [32mBuilding CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rwip_ros2_package/msg/detail/controller__type_support_c.cpp.o[0m
+[5.162s] [ 54%] [32m[1mLinking CXX shared library librwip_ros2_package__rosidl_typesupport_c.so[0m
+[5.168s] [ 57%] [32mBuilding C object CMakeFiles/rwip_ros2_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rwip_ros2_package/msg/detail/controller__type_support.c.o[0m
+[5.173s] [ 60%] [32mBuilding CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rwip_ros2_package/msg/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[5.215s] [ 62%] [32m[1mLinking C shared library librwip_ros2_package__rosidl_typesupport_introspection_c.so[0m
+[5.218s] [ 62%] Built target rwip_ros2_package__rosidl_typesupport_c
+[5.261s] [ 62%] Built target rwip_ros2_package__rosidl_typesupport_introspection_c
+[5.447s] [ 65%] [32m[1mLinking CXX shared library librwip_ros2_package__rosidl_typesupport_cpp.so[0m
+[5.464s] [ 68%] [32m[1mLinking CXX shared library librwip_ros2_package__rosidl_typesupport_introspection_cpp.so[0m
+[5.507s] [ 68%] Built target rwip_ros2_package__rosidl_typesupport_cpp
+[5.522s] [ 68%] Built target rwip_ros2_package__rosidl_typesupport_introspection_cpp
+[5.655s] [ 71%] [32m[1mLinking CXX shared library librwip_ros2_package__rosidl_typesupport_fastrtps_c.so[0m
+[5.672s] [ 74%] [32m[1mLinking CXX shared library librwip_ros2_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.722s] [ 74%] Built target rwip_ros2_package__rosidl_typesupport_fastrtps_c
+[5.737s] [ 74%] Built target rwip_ros2_package__rosidl_typesupport_fastrtps_cpp
+[5.765s] [ 74%] Built target rwip_ros2_package
+[5.794s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.064s] [ 77%] Built target rwip_ros2_package__py
+[6.093s] [ 80%] [32mBuilding C object CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o[0m
+[6.228s] [ 82%] [32m[1mLinking C shared library librwip_ros2_package__rosidl_generator_py.so[0m
+[6.281s] [ 82%] Built target rwip_ros2_package__rosidl_generator_py
+[6.306s] [ 88%] [32mBuilding C object CMakeFiles/rwip_ros2_package_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.306s] [ 88%] [32mBuilding C object CMakeFiles/rwip_ros2_package_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.306s] [ 91%] [32mBuilding C object CMakeFiles/rwip_ros2_package_s__rosidl_typesupport_c.dir/rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c.o[0m
+[6.408s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_c.so[0m
+[6.412s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_introspection_c.so[0m
+[6.422s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.451s] [100%] Built target rwip_ros2_package_s__rosidl_typesupport_c
+[6.455s] [100%] Built target rwip_ros2_package_s__rosidl_typesupport_introspection_c
+[6.467s] [100%] Built target rwip_ros2_package_s__rosidl_typesupport_fastrtps_c
+[6.484s] Invoked command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package -- -j16 -l16
+[6.495s] Invoking command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package
+[6.505s] -- Install configuration: ""
+[6.505s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/ament_index/resource_index/rosidl_interfaces/rwip_ros2_package
+[6.506s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/msg/Controller.json
+[6.506s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.506s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.506s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.506s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.c
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__functions.c
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__struct.h
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.h
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__functions.h
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__description.c
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/rosidl_generator_c__visibility_control.h
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/controller.h
+[6.507s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/library_path.sh
+[6.508s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/library_path.dsv
+[6.508s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_generator_c.so
+[6.509s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_generator_c.so" to ""
+[6.509s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.509s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.509s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.509s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+[6.509s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.509s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_fastrtps_c.so
+[6.510s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_fastrtps_c.so" to ""
+[6.510s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.510s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.510s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.510s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.c
+[6.511s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__rosidl_typesupport_introspection_c.h
+[6.511s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.511s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_introspection_c.so
+[6.511s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_introspection_c.so" to ""
+[6.511s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_c.so
+[6.512s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_c.so" to ""
+[6.512s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.512s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.512s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.512s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.hpp
+[6.513s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__struct.hpp
+[6.513s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__traits.hpp
+[6.513s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__builder.hpp
+[6.513s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.513s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/controller.hpp
+[6.514s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.514s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.514s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.514s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.514s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[6.514s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/dds_fastrtps
+[6.515s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_fastrtps_cpp.so
+[6.515s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.515s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package
+[6.516s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg
+[6.516s] -- Up-to-date: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail
+[6.516s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[6.516s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/include/rwip_ros2_package/rwip_ros2_package/msg/detail/controller__type_support.cpp
+[6.516s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_introspection_cpp.so
+[6.517s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_introspection_cpp.so" to ""
+[6.517s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_cpp.so
+[6.517s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_typesupport_cpp.so" to ""
+[6.518s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/pythonpath.sh
+[6.518s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/pythonpath.dsv
+[6.518s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package-0.0.0-py3.12.egg-info
+[6.518s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package-0.0.0-py3.12.egg-info/PKG-INFO
+[6.519s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.519s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.519s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package-0.0.0-py3.12.egg-info/top_level.txt
+[6.519s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package
+[6.520s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c
+[6.520s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg
+[6.520s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg/_controller.py
+[6.520s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg/__init__.py
+[6.520s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg/_controller_s.c
+[6.521s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_introspection_c.so
+[6.521s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.521s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/__init__.py
+[6.521s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_fastrtps_c.so
+[6.521s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_introspection_c.c
+[6.522s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_c.so
+[6.561s] Listing '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package'...
+[6.562s] Compiling '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/__init__.py'...
+[6.562s] Listing '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg'...
+[6.562s] Compiling '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg/__init__.py'...
+[6.562s] Compiling '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/msg/_controller.py'...
+[6.569s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_fastrtps_c.so
+[6.570s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.570s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_introspection_c.so
+[6.571s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_introspection_c.so" to ""
+[6.571s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_c.so
+[6.571s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/python3.12/site-packages/rwip_ros2_package/rwip_ros2_package_s__rosidl_typesupport_c.so" to ""
+[6.571s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_generator_py.so
+[6.572s] -- Set non-toolchain portion of runtime path of "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/lib/librwip_ros2_package__rosidl_generator_py.so" to ""
+[6.572s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust
+[6.572s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/build.rs
+[6.572s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/Cargo.toml
+[6.572s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/src
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/src/msg.rs
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/src/msg
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/src/msg/rmw.rs
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/rust/src/lib.rs
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/msg/Controller.idl
+[6.573s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/msg/Controller.msg
+[6.574s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/ament_index/resource_index/package_run_dependencies/rwip_ros2_package
+[6.574s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/ament_index/resource_index/parent_prefix_path/rwip_ros2_package
+[6.574s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/ament_prefix_path.sh
+[6.575s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/ament_prefix_path.dsv
+[6.575s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/path.sh
+[6.575s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/environment/path.dsv
+[6.576s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/local_setup.bash
+[6.576s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/local_setup.sh
+[6.576s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/local_setup.zsh
+[6.576s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/local_setup.dsv
+[6.576s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/package.dsv
+[6.577s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/ament_index/resource_index/packages/rwip_ros2_package
+[6.577s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_generator_cExport.cmake
+[6.577s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_generator_cExport-noconfig.cmake
+[6.577s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_typesupport_fastrtps_cExport.cmake
+[6.578s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.578s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_introspection_cExport.cmake
+[6.578s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.578s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_cExport.cmake
+[6.578s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_cExport-noconfig.cmake
+[6.579s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_generator_cppExport.cmake
+[6.579s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.579s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.579s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_introspection_cppExport.cmake
+[6.579s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.580s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_cppExport.cmake
+[6.580s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_package__rosidl_typesupport_cppExport-noconfig.cmake
+[6.580s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_generator_pyExport.cmake
+[6.580s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/export_rwip_ros2_package__rosidl_generator_pyExport-noconfig.cmake
+[6.581s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rosidl_cmake-extras.cmake
+[6.581s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.581s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.581s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/ament_cmake_export_libraries-extras.cmake
+[6.581s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/ament_cmake_export_targets-extras.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_packageConfig.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/cmake/rwip_ros2_packageConfig-version.cmake
+[6.582s] -- Installing: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/install/rwip_ros2_package/share/rwip_ros2_package/package.xml
+[6.587s] Invoked command in '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package

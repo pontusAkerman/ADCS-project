@@ -1,0 +1,10 @@
+source;share/rwip_ros2_package/hook/cmake_prefix_path.dsv
+source;share/rwip_ros2_package/hook/cmake_prefix_path.sh
+source;share/rwip_ros2_package/hook/ld_library_path_lib.dsv
+source;share/rwip_ros2_package/hook/ld_library_path_lib.sh
+source;share/rwip_ros2_package/hook/pythonpath.dsv
+source;share/rwip_ros2_package/hook/pythonpath.sh
+source;share/rwip_ros2_package/local_setup.bash
+source;share/rwip_ros2_package/local_setup.dsv
+source;share/rwip_ros2_package/local_setup.sh
+source;share/rwip_ros2_package/local_setup.zsh
