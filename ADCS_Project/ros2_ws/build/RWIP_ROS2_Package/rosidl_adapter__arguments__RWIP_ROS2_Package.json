@@ -1,0 +1,6 @@
+{
+  "package_name": "RWIP_ROS2_Package",
+  "non_idl_tuples": [
+    "/home/pontus-akerman/Desktop/ADCS_Project/ros2_ws/src/RWIP_ROS2_Package:msg/controller.msg"
+  ]
+}
