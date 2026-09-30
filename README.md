@@ -524,4 +524,16 @@ def main(args=None):
 if __name__ == '__main__':
     main()
 ```
+Now you need to add the python node to the CMake list in order for the package to run/install the node. You do this by adding this section into your CMakeList:
+```bash
+# Python Node
+install(
+  PROGRAMS
+    rwip_ros2_package/controller_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+```
+
+Next step is to make the Python Node script executable, and you do this by running this command in the bash: `chmod +x <Node Path>.py`
+
 
