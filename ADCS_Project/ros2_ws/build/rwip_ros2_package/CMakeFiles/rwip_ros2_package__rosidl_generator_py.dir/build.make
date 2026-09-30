@@ -69,28 +69,28 @@ include CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/flags.make
-CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o: rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c
-CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o -MF CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o.d -o CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/flags.make
+CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o: rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o -MF CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o.d -o CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c
 
-CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c > CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.i
+CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c > CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.i
 
-CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.s
+CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.s
 
 # Object files for target rwip_ros2_package__rosidl_generator_py
 rwip_ros2_package__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o"
+"CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o"
 
 # External object files for target rwip_ros2_package__rosidl_generator_py
 rwip_ros2_package__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-librwip_ros2_package__rosidl_generator_py.so: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o
+librwip_ros2_package__rosidl_generator_py.so: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o
 librwip_ros2_package__rosidl_generator_py.so: CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/build.make
 librwip_ros2_package__rosidl_generator_py.so: librwip_ros2_package__rosidl_typesupport_c.so
 librwip_ros2_package__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so

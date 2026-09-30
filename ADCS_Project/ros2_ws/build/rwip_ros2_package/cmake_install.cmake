@@ -51,7 +51,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -371,11 +371,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package/msg/Controller.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package/msg/Controller.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rwip_ros2_package/msg" TYPE FILE FILES "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package/msg/ControlInput.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -69,9 +69,9 @@ include /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwi
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_introspection_c.c
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c
-/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_controller.py
+/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_control_input.py
 /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/__init__.py
-/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c
+/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c
 
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -86,7 +86,7 @@ rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rwip_ros2_package/msg/Controller.idl
+rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -161,21 +161,21 @@ rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport
 rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/rwip_ros2_package/msg/_controller.py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/msg/_controller.py
+rosidl_generator_py/rwip_ros2_package/msg/_control_input.py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/msg/_control_input.py
 
 rosidl_generator_py/rwip_ros2_package/msg/__init__.py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/msg/__init__.py
 
-rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c
+rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c
 
 rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_c.c
 rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
 rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/_rwip_ros2_package_s.ep.rosidl_typesupport_introspection_c.c
 rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/__init__.py
-rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_controller.py
-rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c
+rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_control_input.py
+rwip_ros2_package__py: rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c
 rwip_ros2_package__py: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py
 rwip_ros2_package__py: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rwip_ros2_package__py/CMakeFiles/rwip_ros2_package__py.dir/build.make
 .PHONY : rwip_ros2_package__py

@@ -1,1 +1,1 @@
-from rwip_ros2_package.msg._controller import Controller  # noqa: F401
+from rwip_ros2_package.msg._control_input import ControlInput  # noqa: F401

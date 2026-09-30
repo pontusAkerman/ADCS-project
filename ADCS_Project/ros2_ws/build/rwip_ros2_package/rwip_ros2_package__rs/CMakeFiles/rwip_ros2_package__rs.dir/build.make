@@ -85,7 +85,7 @@ rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/rosi
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
-rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: rosidl_adapter/rwip_ros2_package/msg/Controller.idl
+rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_rs/rwip_ros2_package/rust/src/lib.rs: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl

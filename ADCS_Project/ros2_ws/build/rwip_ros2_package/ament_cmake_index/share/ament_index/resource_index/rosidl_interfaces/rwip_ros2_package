@@ -1,2 +1,2 @@
-msg/Controller.idl
-msg/Controller.msg
+msg/ControlInput.idl
+msg/ControlInput.msg

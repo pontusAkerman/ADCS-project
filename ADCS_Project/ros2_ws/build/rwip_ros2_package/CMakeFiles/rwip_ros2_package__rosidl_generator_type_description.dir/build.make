@@ -66,16 +66,16 @@ include CMakeFiles/rwip_ros2_package__rosidl_generator_type_description.dir/comp
 # Include the progress variables for this target.
 include CMakeFiles/rwip_ros2_package__rosidl_generator_type_description.dir/progress.make
 
-CMakeFiles/rwip_ros2_package__rosidl_generator_type_description: rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json
+CMakeFiles/rwip_ros2_package__rosidl_generator_type_description: rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json
 
-rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
-rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json: rosidl_adapter/rwip_ros2_package/msg/Controller.idl
+rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_type_description__arguments.json
 
 rwip_ros2_package__rosidl_generator_type_description: CMakeFiles/rwip_ros2_package__rosidl_generator_type_description
-rwip_ros2_package__rosidl_generator_type_description: rosidl_generator_type_description/rwip_ros2_package/msg/Controller.json
+rwip_ros2_package__rosidl_generator_type_description: rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json
 rwip_ros2_package__rosidl_generator_type_description: CMakeFiles/rwip_ros2_package__rosidl_generator_type_description.dir/build.make
 .PHONY : rwip_ros2_package__rosidl_generator_type_description
 

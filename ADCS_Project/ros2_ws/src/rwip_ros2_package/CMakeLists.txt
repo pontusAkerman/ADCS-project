@@ -25,7 +25,7 @@ install(
 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Controller.msg"
+  "msg/ControlInput.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
  )
 

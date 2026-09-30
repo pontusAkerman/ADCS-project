@@ -3,7 +3,7 @@
   "output_dir": "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package:msg/Controller.idl"
+    "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package:msg/ControlInput.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -86,7 +86,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package/msg/Controller.idl",
+    "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o"
-  "CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_controller_s.c.o.d"
+  "CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o"
+  "CMakeFiles/rwip_ros2_package__rosidl_generator_py.dir/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c.o.d"
   "librwip_ros2_package__rosidl_generator_py.pdb"
   "librwip_ros2_package__rosidl_generator_py.so"
 )

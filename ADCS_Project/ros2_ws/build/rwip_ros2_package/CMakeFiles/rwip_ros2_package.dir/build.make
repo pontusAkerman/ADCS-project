@@ -66,7 +66,7 @@ include CMakeFiles/rwip_ros2_package.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/rwip_ros2_package.dir/progress.make
 
-CMakeFiles/rwip_ros2_package: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package/msg/Controller.msg
+CMakeFiles/rwip_ros2_package: /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package/msg/ControlInput.msg
 CMakeFiles/rwip_ros2_package: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/rwip_ros2_package: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/rwip_ros2_package: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
