@@ -491,7 +491,37 @@ Packages is a collection of functionality in ROS, where you have your collection
 ## ROS2 Nodes
 The difference between a node and a package is that a ROS2 package is what contains your ROS2 functionality, all the code etc. While a node is within that package and is a program or script running inside the package. To create a ROS2 Node inside a ROS2 package you can use the command: `touch <location><nodeName.cpp>`
 
+You can also run `mkdir -p <directory>/<newFolderName>` To create a new directory folder or path in the workspace to make things look nicer and then create your nodes inside this path.
+
+Standard form of a Python Node:
+```bash
+import rclpy
+from rclpy.node import Node
 
 
+# Class for the controller node
+class ControllerNode(Node):
 
+    # Initialization of the controller node
+    def __init__(self):
+        super().__init__('controller_node')
+
+        self.get_logger().info('Controller node started!')
+
+
+# Main function to run the controller node
+def main(args=None):
+    rclpy.init(args=args)
+
+    node = ControllerNode()
+
+    rclpy.spin(node)
+
+    node.destroy_node()
+    rclpy.shutdown()
+
+# Entry point for the script
+if __name__ == '__main__':
+    main()
+```
 
