@@ -103,6 +103,7 @@ class SimConfig:
 # ==========================================================================
 # Utility Functions
 # ==========================================================================
+
 class ControlFunctionality:
     def wrap_angle(theta):
         """
@@ -142,7 +143,7 @@ class ControlFunctionality:
         
         for k in range(N):
             
-            X[k+1] = integrate_step(
+            X[k+1] = ControlFunctionality.integrate_step(
                 X[k],
                 U[k],
                 p,
@@ -249,7 +250,7 @@ class ControlFunctionality:
                 [-1 /p.I_p],
             ])  # B matrix for the mpc
         
-        A_d, B_d = discretize_system(A, B, dt)
+        A_d, B_d = ControlFunctionality.discretize_system(A, B, dt)
                 
         P = solve_discrete_are(A_d, B_d, Q, R)    # Solved from the Ricatti equation, current cost of the state the controller is in
             
@@ -303,7 +304,7 @@ class ControlFunctionality:
         
         phi_dot, theta, theta_dot = state[1], state[2], state[3]  # All current system states
         
-        theta = wrap_angle(theta)   # Wraps the error angle within our set range
+        theta = ControlFunctionality.wrap_angle(theta)   # Wraps the error angle within our set range
         
         x_lqr = np.array([
             theta,
@@ -315,9 +316,9 @@ class ControlFunctionality:
         
         #if u_cmd >= cfg.u_max or u_cmd <= -cfg.u_max:
         #    print(u_cmd)
-        u_cmd = apply_wheel_speed_limit(u_cmd, state, cfg)
+        u_cmd = ControlFunctionality.apply_wheel_speed_limit(u_cmd, state, cfg)
         
-        u_cmd = clip_torque(u_cmd, cfg)
+        u_cmd = ControlFunctionality.clip_torque(u_cmd, cfg)
         
         return float(u_cmd) # Returns the controller input
 
@@ -330,19 +331,19 @@ class ControlFunctionality:
         
         """
         
-        state[2] = wrap_angle(state[2])
+        state[2] = ControlFunctionality.wrap_angle(state[2])
         
         bounds = [(-cfg.u_max, cfg.u_max)]*N
         
         constraints = {
             'type': 'ineq',
-            'fun': wheel_speed_constraint,
+            'fun': ControlFunctionality.wheel_speed_constraint,
             'args': (state, N, p, cfg.dt_mpc)
         }
         
         # Optimizer for finding the best control input sequence
         best = minimize(
-            cost_function,
+            ControlFunctionality.cost_function,
             U_0,
             args = (state, N, Q_mpc, R_mpc, P, p, R_delta_u_mpc, u_prev),
             bounds=bounds,
@@ -355,9 +356,9 @@ class ControlFunctionality:
         u_cmd = best.x[-1]   # MPC controller input calculated based on future predictions, only makes the first step of the best sequence
         #print(u_cmd)
 
-        u_cmd = apply_wheel_speed_limit(u_cmd, state, cfg)
+        u_cmd = ControlFunctionality.apply_wheel_speed_limit(u_cmd, state, cfg)
         
-        u_cmd = clip_torque(u_cmd, cfg)
+        u_cmd = ControlFunctionality.clip_torque(u_cmd, cfg)
         
         U_0 = np.concatenate((best.x[1:], [0.0]))
         
@@ -379,9 +380,9 @@ class ControlFunctionality:
 
         theta, theta_dot = state[2], state[3]
         
-        theta_error = wrap_angle(theta)
+        theta_error = ControlFunctionality.wrap_angle(theta)
     
-        E = pendulum_body_energy(theta_error, theta_dot, p)  # Total current pendulum energy
+        E = ControlFunctionality.pendulum_body_energy(theta_error, theta_dot, p)  # Total current pendulum energy
         
         E_des = -p.mgl   # Desired pendilum energy to reach the set target
         E_err = E - E_des   # How much energy is required to be added or removed to reach the desired amount of energy
@@ -399,8 +400,8 @@ class ControlFunctionality:
         #    u_cmd = cfg.kick_fraction * cfg.u_max * direction   # Adds a kick if the pendulum does not have any energy to use.
 
         # Always apply the limiters
-        u_cmd = apply_wheel_speed_limit(u_cmd, state, cfg)
-        u_cmd = clip_torque(u_cmd, cfg)
+        u_cmd = ControlFunctionality.apply_wheel_speed_limit(u_cmd, state, cfg)
+        u_cmd = ControlFunctionality.clip_torque(u_cmd, cfg)
                 
         
         return float(u_cmd)
@@ -433,15 +434,15 @@ class ControlFunctionality:
         for k in range(N):
             
             # Predict next state 
-            X[k+1] = integrate_step(X[k], U[k], p, cfg, cfg.dt_mpc)
+            X[k+1] = ControlFunctionality.integrate_step(X[k], U[k], p, cfg, cfg.dt_mpc)
             
             w_region = 0.0     # Penalty coefficient, we want the mpc to get to the lqr region
-            theta_excess = max(0, wrap_angle(X[k+1, 2]) / cfg.theta_bf_min_ml - 1)             # Takes the excess/how far away the current angle is from the ideal angle, within the LQR range.
+            theta_excess = max(0, ControlFunctionality.wrap_angle(X[k+1, 2]) / cfg.theta_bf_min_ml - 1)             # Takes the excess/how far away the current angle is from the ideal angle, within the LQR range.
             theta_dot_excess = 0 #max(0, X[k+1, 3] / cfg.theta_dot_limit - 1)         # Takes the excess/how far away the current angle rate is from the ideal angle rate, within the lqr range.
             
             
             #if(X[k+1, 2] > np.pi):
-            #    print(abs(wrap_angle(X[k+1,2])))
+            #    print(abs(ControlFunctionality.wrap_angle(X[k+1,2])))
             # State error
             e = np.array([
                 X[k+1, 0] - x_ref[0],
@@ -561,28 +562,28 @@ class ControlFunctionality:
         theta, theta_dot = state[2], state[3]  # All current system states
         
         # Theta error, this wraps the theta angle between -pi and pi, as the equilibrium is at the top and it can go to either side, but never exceed 180 degrees.
-        theta_error = wrap_angle(theta)
+        theta_error = ControlFunctionality.wrap_angle(theta)
         
         # Determines omega depending on the range of the blending function, and normalizes it between 0 and 1
-        omega_sm = smoothstep_function(theta_error, cfg.theta_bf_min_sm, cfg.theta_bf_max_sm)
+        omega_sm = ControlFunctionality.smoothstep_function(theta_error, cfg.theta_bf_min_sm, cfg.theta_bf_max_sm)
         
         
         # Calls on the smoothstep function to get the value of omega, between 0 and 1, to help determine which controller should be used
-        omega_ml = smoothstep_function(theta_error, cfg.theta_bf_min_ml, cfg.theta_bf_max_ml)     
+        omega_ml = ControlFunctionality.smoothstep_function(theta_error, cfg.theta_bf_min_ml, cfg.theta_bf_max_ml)     
         
         # If omega is at 1, then we are within thhe Swing-up region
         if omega_sm >= 1.0:
             mode = "swing"
             
             # Swing-up Control Input
-            u_cmd = swingup_controller(state, p, cfg)
+            u_cmd = ControlFunctionality.swingup_controller(state, p, cfg)
             U_0 = np.zeros([N_mpc])
 
         # if omega is at 0, then we are within the mpc region
         elif omega_ml <= 0.0:
             mode = "lqr"
             
-            u_cmd = lqr_controller(state, K)
+            u_cmd = ControlFunctionality.lqr_controller(state, K)
                     
             
         # If we are between the mpc and swing-up region, then we are in the blending region and the blending function takes over
@@ -593,10 +594,10 @@ class ControlFunctionality:
             if mpc_update:
                 
                 # MPC Control Input
-                u_mpc, U_0 = mpc_controller(state, U_0, P_mpc, p, N_mpc, u_prev)
+                u_mpc, U_0 = ControlFunctionality.mpc_controller(state, U_0, P_mpc, p, N_mpc, u_prev)
                     
             # Swing-up Control Input 
-            u_swing = swingup_controller(state, p, cfg)
+            u_swing = ControlFunctionality.swingup_controller(state, p, cfg)
                     
             # Decides how much of each controller input should be used of the MPC or Swing-up
             u_cmd = (1 - omega_sm) * u_mpc + omega_sm * u_swing
@@ -614,10 +615,10 @@ class ControlFunctionality:
             # Recalculates the MPC if its time, otherwise it will continue using the current control input
             if mpc_update:
                 # MPC Control Input
-                u_mpc, U_0 = mpc_controller(state, U_0, P_mpc, p, N_mpc, u_prev) 
+                u_mpc, U_0 = ControlFunctionality.mpc_controller(state, U_0, P_mpc, p, N_mpc, u_prev) 
                 
             # LQR Control Input
-            u_lqr = lqr_controller(state, K)
+            u_lqr = ControlFunctionality.lqr_controller(state, K)
             
             # Decides how much of each controller input should be used of the LQR or MPC
             u_cmd = (1 - omega_ml) * u_lqr + omega_ml * u_mpc
@@ -633,19 +634,19 @@ class ControlFunctionality:
             mode = "lqr"
             
             # LQR Control Input
-            u_cmd = lqr_controller(state, K)
+            u_cmd = ControlFunctionality.lqr_controller(state, K)
                             
                     
         # If the error rate is more than the allowed limit, the mpc or lqr will not take over, and the swing-up controller will continue to be in use
         #if abs(theta_dot) > cfg.theta_dot_limit:
         #    mode = "swing"
-        #    u_cmd = swingup_controller(state, p, cfg)
+        #    u_cmd = ControlFunctionality.swingup_controller(state, p, cfg)
         #    U_0 = np.zeros([N_mpc])
                 
         
         # Applies both the wheel speed limit and the torque limit for the motor
-        u_cmd = apply_wheel_speed_limit(u_cmd, state, cfg)
-        u = clip_torque(u_cmd, cfg) # Clip the input signal between the set torque limit
+        u_cmd = ControlFunctionality.apply_wheel_speed_limit(u_cmd, state, cfg)
+        u = ControlFunctionality.clip_torque(u_cmd, cfg) # Clip the input signal between the set torque limit
         
         #if u >= 0.3 or u <= -0.3:
         #    print( u , mode
@@ -673,7 +674,7 @@ class ControlFunctionality:
         
         phi, phi_dot, theta, theta_dot = state  # All current system states
         
-        xdot = nonlinear_dynamics(state, u, p, tau_d=cfg.tau_d) # State derivatives of the nonlinear system dynamics
+        xdot = ControlFunctionality.nonlinear_dynamics(state, u, p, tau_d=cfg.tau_d) # State derivatives of the nonlinear system dynamics
 
         phi_ddot = xdot[1]      # Assign the wheel acceleration
         theta_ddot = xdot[3]    # Assign the error acceleration
@@ -686,7 +687,7 @@ class ControlFunctionality:
         phi_next = phi + phi_dot_next * dt              # Predicts what the next wheel angle will be using the current wheel angle and current wheel speed
         theta_next = theta + theta_dot_next * dt        # Predicts what the next error will be based on the current error and the error rate
         
-        #theta_next = wrap_angle(theta_next) # Wraps the future predicted error within our set range
+        theta_next = ControlFunctionality.wrap_angle(theta_next) # Wraps the future predicted error within our set range
         
         return np.array([
             phi_next,
@@ -722,11 +723,11 @@ class ControlFunctionality:
         
         # Start in MPC only if already within its oeprating range
         
-        if abs(wrap_angle(X[2, 0])) < cfg.theta_bf_max_ml and abs(wrap_angle(X[2, 0])) > cfg.theta_bf_min_ml: 
+        if abs(ControlFunctionality.wrap_angle(X[2, 0])) < cfg.theta_bf_max_ml and abs(ControlFunctionality.wrap_angle(X[2, 0])) > cfg.theta_bf_min_ml: 
             mode = "mpc"    # Change to lqr if you want to use the lqr instead
         
         # Start in LQR only if already within its operating range
-        elif abs(wrap_angle(X[2, 0])) < cfg.theta_bf_min_ml:
+        elif abs(ControlFunctionality.wrap_angle(X[2, 0])) < cfg.theta_bf_min_ml:
             mode = "lqr"
         
         # Otherwise start with the swing-up controller
@@ -741,7 +742,7 @@ class ControlFunctionality:
             mpc_update = (mpc_counter==0)   # This turns the int into a bool, where mpc_counter == 0, means that mpc_update is True
             
             # Calling omn the choose controller function to decide which controller to run, and sending the current u_mpc command, as well as the mpc_update to decide if its time to recalculate the mpc again
-            U_0, u, mode, u_mpc = choose_controller(
+            U_0, u, mode, u_mpc = ControlFunctionality.choose_controller(
                 state, 
                 mode, 
                 K, 
@@ -764,7 +765,7 @@ class ControlFunctionality:
             mode_history.append(mode)   # Stores the history of all the modes/controllers used
             
             # Uses the integrate_step function to estimate the future state
-            X[:, k+1] = integrate_step(state, u, p, cfg, cfg.dt)
+            X[:, k+1] = ControlFunctionality.integrate_step(state, u, p, cfg, cfg.dt)
             
             # Checks wheter 
             if mpc_counter == 0:
@@ -784,7 +785,7 @@ class ControlFunctionality:
     # Plotting
     # ==========================================================================
 
-    #def plot_results(t, X, U, p, cfg):  # Creates plots for the different states and errors.
+    def plot_results(t, X, U, p, cfg):  # Creates plots for the different states and errors.
         phi = X[0, :]       # Wheel angle
         phi_dot = X[1, :]   # Wheel speed
         theta = X[2, :]     # Error
@@ -805,8 +806,8 @@ class ControlFunctionality:
         ax[0].legend()
         
         # Wheel speeds
-        ax[1].plot(t, rad_s_to_rpm(phi_dot), label="relative wheel speed phi_dot [RPM]")
-        ax[1].plot(t, rad_s_to_rpm(omega_w), label="absolute wheel speed omega_w [RPM]")
+        ax[1].plot(t, ControlFunctionality.rad_s_to_rpm(phi_dot), label="relative wheel speed phi_dot [RPM]")
+        ax[1].plot(t, ControlFunctionality.rad_s_to_rpm(omega_w), label="absolute wheel speed omega_w [RPM]")
         
         if cfg.use_wheel_speed_limit:
             ax[1].axhline(cfg.phi_dot_max_rpm, linestyle="--", label="wheel speed limit")
@@ -845,7 +846,7 @@ class ControlFunctionality:
     # Pygame Visualization
     # ==========================================================================
 
-    #def rotate_screen_vector(v, angle):
+    def rotate_screen_vector(v, angle):
         """
         Rotate a 2D screen vector by angle.
         
@@ -864,7 +865,7 @@ class ControlFunctionality:
         ])
         
 
-    #def draw_reaction_wheel_system(screen, state, u, mode, p):
+    def draw_reaction_wheel_system(screen, state, u, mode, p):
         phi, phi_dot, theta, theta_dot = state
         
         width, height = screen.get_size()   # Gets the size of the Pygame window in pixels, both width and height
@@ -886,8 +887,8 @@ class ControlFunctionality:
         
         # A square corner-to-center diagonal is 45 degrees from each side.
         # So the two box edges from the pivot are +/- 45 degrees around center_dir.
-        edge_1_dir = rotate_screen_vector(center_dir, np.pi / 4)
-        edge_2_dir = rotate_screen_vector(center_dir, -np.pi / 4)
+        edge_1_dir = ControlFunctionality.rotate_screen_vector(center_dir, np.pi / 4)
+        edge_2_dir = ControlFunctionality.rotate_screen_vector(center_dir, -np.pi / 4)
         
         # Four corners of the square body
         corner_0 = pivot                                                # Pivot corner, the axle the body rotates around
@@ -1005,7 +1006,7 @@ class ControlFunctionality:
             y += 26
         
         
-    #def run_pygame_simulation(p, cfg, K, initial_theta_deg):
+    def run_pygame_simulation(p, cfg, K, initial_theta_deg):
         pygame.init()
         
         screen = pygame.display.set_mode((900, 700))
@@ -1073,7 +1074,7 @@ class ControlFunctionality:
             
             while accumulator >= physics_dt:
                 
-                U_0, u, mode, u_mpc = choose_controller(
+                U_0, u, mode, u_mpc = ControlFunctionality.choose_controller(
                     state, 
                     mode, 
                     K, 
@@ -1086,7 +1087,7 @@ class ControlFunctionality:
                     u_prev
                     )
                 
-                state = integrate_step(
+                state = ControlFunctionality.integrate_step(
                     state,
                     u,
                     p,
@@ -1107,7 +1108,7 @@ class ControlFunctionality:
             # -------------------------
             # Draw
             # -------------------------
-            draw_reaction_wheel_system(screen, state, u, mode, p)
+            ControlFunctionality.draw_reaction_wheel_system(screen, state, u, mode, p)
             pygame.display.flip()
         
         pygame.quit()
@@ -1121,7 +1122,7 @@ class ControlFunctionality:
 p = PhysicalParams()    # Physical parameters
 cfg = SimConfig()   # System configuration for the start of the simulation
 
-print_physical_info(p)  # Printing the physical information
+#print_physical_info(p)  # Printing the physical information
 
 Q_lqr = np.diag([
     10e-2,      # theta
@@ -1142,15 +1143,15 @@ R_mpc = np.array([[10e4]])
 
 R_delta_u_mpc = 1000.0
 
-A_LQR, B_LQR, K, P_lqr = build_lqr_controller(p, Q_lqr, R_lqr)
+A_LQR, B_LQR, K, P_lqr = ControlFunctionality.build_lqr_controller(p, Q_lqr, R_lqr)
 
-A_MPC, B_MPC, P_mpc = build_mpc_controller(p, Q_mpc, R_mpc, cfg.dt_mpc)
+A_MPC, B_MPC, P_mpc = ControlFunctionality.build_mpc_controller(p, Q_mpc, R_mpc, cfg.dt_mpc)
 
 print("K =", K)
 
-t, X, U, mode_history = simulate(cfg.initial_theta_deg, p, cfg, K)
+t, X, U, mode_history = ControlFunctionality.simulate(cfg.initial_theta_deg, p, cfg, K)
 
 #print(mode_history)
-#plot_results(t, X, U, p, cfg)
+ControlFunctionality.plot_results(t, X, U, p, cfg)
 
-#run_pygame_simulation(p, cfg, K, cfg.initial_theta_deg)
+ControlFunctionality.run_pygame_simulation(p, cfg, K, cfg.initial_theta_deg)
