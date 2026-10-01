@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
+import sys
+
+sys.path.append(
+    '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Python/controller_package'
+)
+
+from adcs_controller.RWIP_Python_Controller import ControlFunctionality
 
 import rclpy    # Import the ROS2 Python client library
 from rclpy.node import Node     # Import the Node class from rclpy.node module
 from rwip_ros2_package.msg import ControlInput
-from adcs_controller.RWIP_Python_Controller import ControlFunctionality
 
 
 
@@ -15,6 +21,8 @@ class ControllerNode(Node):
 
         # Call the constructor of the parent class (Node) with the name 'controller_node'
         super().__init__('controller_node')
+
+        controller = ControlFunctionality()  # Create an instance of the ControlFunctionality class 
 
         # Create a publisher for the 'controller' topic with message type 'ControlInput' and a queue size of 10
         self.publisher = self.create_publisher(ControlInput, 'control_input', 10)
