@@ -5,11 +5,10 @@ sys.path.append(
     '/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/Python/controller_package'
 )
 
-from adcs_controller.RWIP_Python_Controller import ControlFunctionality
-
 import rclpy    # Import the ROS2 Python client library
 from rclpy.node import Node     # Import the Node class from rclpy.node module
 from rwip_ros2_package.msg import ControlInput
+from adcs_controller.RWIP_Python_Controller import ControlFunctionality
 
 
 
