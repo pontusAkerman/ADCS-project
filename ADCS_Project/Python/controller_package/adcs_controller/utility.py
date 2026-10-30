@@ -74,3 +74,24 @@ def apply_wheel_speed_limit(u_cmd, state, wheel_speed_limit):
         
         return float(u_cmd)
 
+# ==========================================================================
+# Pygame functionality
+# ==========================================================================
+
+def rotate_screen_vector(v, angle):
+        """
+        Rotate a 2D screen vector by angle.
+        
+        Screen coordinates:
+            x right = positive
+            y down = positive
+        
+        """
+        
+        c = np.cos(angle)
+        s = np.sin(angle)
+        
+        return np.array([
+            c*v[0] - s*v[1],
+            s*v[0] + c*v[1]
+        ])

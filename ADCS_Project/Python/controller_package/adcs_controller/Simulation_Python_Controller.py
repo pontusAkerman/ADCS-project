@@ -6,42 +6,6 @@ import utility as util
 from RWIP_Simconfig import SimConfig as cfg
 from RWIP_Dynamics import Dynamics
 
-# ==========================================================================
-# Integration
-# ==========================================================================
-
-def integrate_step(state, u, p, cfg, dt):   # Integration step using Semi-Implicit Euler integration
-    """
-    Semi-implicit Euler integration.
-        
-    This is usually a little better than plain Euler for mechanical systems
-        
-    """
-        
-    phi, phi_dot, theta, theta_dot = state  # All current system states
-        
-    xdot = Dynamics.nonlinear_dynamics(state, u, p, tau_d=cfg.tau_d) # State derivatives of the nonlinear system dynamics
-
-    phi_ddot = xdot[1]      # Assign the wheel acceleration
-    theta_ddot = xdot[3]    # Assign the error acceleration
-        
-    # Update velocities first
-    phi_dot_next = phi_dot + phi_ddot * dt          # Calculates the predicted next wheel speed based on the current wheel angle and wheel acceleration
-    theta_dot_next = theta_dot + theta_ddot * dt    # Calculates the predicted next error rate based on the previous and the current error acceleration
-        
-    # Update positions using new velocities, using Euler integration
-    phi_next = phi + phi_dot_next * dt              # Predicts what the next wheel angle will be using the current wheel angle and current wheel speed
-    theta_next = theta + theta_dot_next * dt        # Predicts what the next error will be based on the current error and the error rate
-        
-    theta_next = util.wrap_angle(theta_next) # Wraps the future predicted error within our set range
-        
-    return np.array([
-        phi_next,
-        phi_dot_next,
-        theta_next,
-        theta_dot_next
-    ], dtype=float) # Returns an array of the future predicted states
-
 
 
 # ==========================================================================
@@ -187,26 +151,7 @@ def plot_results(t, X, U, p, cfg):  # Creates plots for the different states and
 
 # ==========================================================================
 # Pygame Visualization
-# ==========================================================================
-
-def rotate_screen_vector(v, angle):
-        """
-        Rotate a 2D screen vector by angle.
-        
-        Screen coordinates:
-            x right = positive
-            y down = positive
-        
-        """
-        
-        c = np.cos(angle)
-        s = np.sin(angle)
-        
-        return np.array([
-            c*v[0] - s*v[1],
-            s*v[0] + c*v[1]
-        ])
-        
+# ==========================================================================    
 
 def draw_reaction_wheel_system(screen, state, u, mode, p):
         phi, phi_dot, theta, theta_dot = state
@@ -230,8 +175,8 @@ def draw_reaction_wheel_system(screen, state, u, mode, p):
         
         # A square corner-to-center diagonal is 45 degrees from each side.
         # So the two box edges from the pivot are +/- 45 degrees around center_dir.
-        edge_1_dir = rotate_screen_vector(center_dir, np.pi / 4)
-        edge_2_dir = rotate_screen_vector(center_dir, -np.pi / 4)
+        edge_1_dir = util.rotate_screen_vector(center_dir, np.pi / 4)
+        edge_2_dir = util.rotate_screen_vector(center_dir, -np.pi / 4)
         
         # Four corners of the square body
         corner_0 = pivot                                                # Pivot corner, the axle the body rotates around
@@ -413,7 +358,7 @@ def run_pygame_simulation(p, cfg, K, initial_theta_deg):
             # Physics update
             # -------------------------
             
-            
+            '''
             while accumulator >= physics_dt:
                 
                 U_0, u, mode, u_mpc = ControlFunctionality.choose_controller(
@@ -445,7 +390,7 @@ def run_pygame_simulation(p, cfg, K, initial_theta_deg):
                     mpc_counter = int(round(cfg.dt_mpc / cfg.dt)) - 1   # Restarts the mpc counter again, removes 1 becuase we start at 0, so we have the correct range inbetween
                 else:
                     mpc_counter -= 1 # If its not time to recalculate the mpc, then remove one step from the counter, this will continue until its time to recalculate
-                        
+            '''
             
             # -------------------------
             # Draw
