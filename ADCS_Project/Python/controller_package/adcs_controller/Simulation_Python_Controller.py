@@ -1,65 +1,52 @@
 import pygame
 import numpy as np
 import matplotlib.pyplot as plt
-import ros2_ws.src.rwip_ros2_package.msg as ControlInput    
+import ros2_ws.src.rwip_ros2_package.msg as ControlInput 
+import utility as util
+from RWIP_Simconfig import SimConfig as cfg
+from RWIP_Dynamics import Dynamics
+
+# ==========================================================================
+# Integration
+# ==========================================================================
+
+def integrate_step(state, u, p, cfg, dt):   # Integration step using Semi-Implicit Euler integration
+    """
+    Semi-implicit Euler integration.
+        
+    This is usually a little better than plain Euler for mechanical systems
+        
+    """
+        
+    phi, phi_dot, theta, theta_dot = state  # All current system states
+        
+    xdot = Dynamics.nonlinear_dynamics(state, u, p, tau_d=cfg.tau_d) # State derivatives of the nonlinear system dynamics
+
+    phi_ddot = xdot[1]      # Assign the wheel acceleration
+    theta_ddot = xdot[3]    # Assign the error acceleration
+        
+    # Update velocities first
+    phi_dot_next = phi_dot + phi_ddot * dt          # Calculates the predicted next wheel speed based on the current wheel angle and wheel acceleration
+    theta_dot_next = theta_dot + theta_ddot * dt    # Calculates the predicted next error rate based on the previous and the current error acceleration
+        
+    # Update positions using new velocities, using Euler integration
+    phi_next = phi + phi_dot_next * dt              # Predicts what the next wheel angle will be using the current wheel angle and current wheel speed
+    theta_next = theta + theta_dot_next * dt        # Predicts what the next error will be based on the current error and the error rate
+        
+    theta_next = util.wrap_angle(theta_next) # Wraps the future predicted error within our set range
+        
+    return np.array([
+        phi_next,
+        phi_dot_next,
+        theta_next,
+        theta_dot_next
+    ], dtype=float) # Returns an array of the future predicted states
 
 
-class SimConfig():
-    def __init__(self):
-        self.initial_theta_deg = 0.0  # Initial angle of the pendulum in degrees
-        self.T = 10.0                  # Total simulation time in seconds
-        self.N = 1000                  # Number of simulation steps
-        self.dt = self.T / self.N      # Time step size
-        
-        # Wheel speed limit
-        self.use_wheel_speed_limit = True       # Flag to enable/disable wheel speed limit
-        self.phi_dot_max_rpm = 100.0            # Maximum wheel speed in RPM
-        
-        # Torque limit
-        self.u_max = 1.0                        # Maximum torque in Nm
-        
-        # MPC parameters
-        self.dt_mpc = 0.1                       # MPC update interval in seconds
-        self.N_mpc = 20                         # Number of MPC steps
-        
-        # Controller switching thresholds
-        self.theta_bf_max_sm = np.deg2rad(10)   # Threshold for switching to MPC (small)
-        self.theta_bf_max_ml = np.deg2rad(20)   # Threshold for switching to LQR (medium)
-        self.theta_bf_min_ml = np.deg2rad(5)    # Threshold for switching to LQR (minimum)
-        
-        # LQR exit threshold
-        self.theta_dot_limit = np.deg2rad(30)   # Threshold for exiting LQR control
 
-def rad_s_to_rpm(omega):
-    return omega * 60 / (2 * np.pi) # Converts angular velocity from radians per second to revolutions per minute (RPM)
-
-def wrap_angle(theta):
-        """
-        Wrap angle to [-pi, pi].
-        This keeps theta readable and makes switching logic easier.
-        
-        FIrst we shift the range from [-180, 180] to [0, 360] for the modulo "%" to work, then we shift it back to [-180, 180] for ease of use
-        
-        """
-        return (theta + np.pi) % (2*np.pi) - np.pi  # Using a wrap angle keeps all the angles within the set limits of pi and -pi. Instead of it continously increasing with rotations to 500pi, it will be kept within one rotation for ease.
-
-def apply_wheel_speed_limit(u_cmd, state, cfg):
-        
-        phi_dot = state[1]
-        
-        limit = cfg.phi_dot_max_rad
-        
-        # Wheel is too fast in positive direction, dont allow it to accelerate any further
-        if phi_dot >= limit and u_cmd > 0:
-            u_cmd = 0.0
-        
-        #  Wheel is too fast in negative direction, dont allow it to accelerate any further
-        elif phi_dot <= -limit and u_cmd < 0:
-            u_cmd = 0.0
-        
-        return float(u_cmd)
-
-
+# ==========================================================================
+# Simulation and plotting
+# ==========================================================================
 
 def simulate(initial_theta_deg, p, cfg, K): # Simulation step
         t = np.linspace(0, cfg.T, cfg.N)    # Splits the total amount of time T into a set number of steps N
@@ -82,17 +69,18 @@ def simulate(initial_theta_deg, p, cfg, K): # Simulation step
         
         # Start in MPC only if already within its oeprating range
         
-        if abs(wrap_angle(X[2, 0])) < cfg.theta_bf_max_ml and abs(wrap_angle(X[2, 0])) > cfg.theta_bf_min_ml: 
+        if abs(util.wrap_angle(X[2, 0])) < cfg.theta_bf_max_ml and abs(util.wrap_angle(X[2, 0])) > cfg.theta_bf_min_ml: 
             mode = "mpc"    # Change to lqr if you want to use the lqr instead
         
         # Start in LQR only if already within its operating range
-        elif abs(wrap_angle(X[2, 0])) < cfg.theta_bf_min_ml:
+        elif abs(util.wrap_angle(X[2, 0])) < cfg.theta_bf_min_ml:
             mode = "lqr"
         
         # Otherwise start with the swing-up controller
         else:
             mode = "swing"
 
+        '''
         # Creates the simulation by running through each time step
         for k in range(cfg.N - 1):
             
@@ -124,14 +112,14 @@ def simulate(initial_theta_deg, p, cfg, K): # Simulation step
             mode_history.append(mode)   # Stores the history of all the modes/controllers used
             
             # Uses the integrate_step function to estimate the future state
-            X[:, k+1] = ControlFunctionality.integrate_step(state, u, p, cfg, cfg.dt)
+            X[:, k+1] = integrate_step(state, u, p, cfg, cfg.dt)
             
             # Checks wheter 
             if mpc_counter == 0:
                 mpc_counter = int(round(cfg.dt_mpc / cfg.dt)) - 1   # Restarts the mpc counter again, removes 1 becuase we start at 0, so we have the correct range inbetween
             else:
                 mpc_counter -= 1 # If its not time to recalculate the mpc, then remove one step from the counter, this will continue until its time to recalculate
-            
+        '''
         
         U[-1] = U[-2]
         u_node = U[-1]
@@ -161,8 +149,8 @@ def plot_results(t, X, U, p, cfg):  # Creates plots for the different states and
         ax[0].legend()
         
         # Wheel speeds
-        ax[1].plot(t, rad_s_to_rpm(phi_dot), label="relative wheel speed phi_dot [RPM]")
-        ax[1].plot(t, rad_s_to_rpm(omega_w), label="absolute wheel speed omega_w [RPM]")
+        ax[1].plot(t, util.rad_s_to_rpm(phi_dot), label="relative wheel speed phi_dot [RPM]")
+        ax[1].plot(t, util.rad_s_to_rpm(omega_w), label="absolute wheel speed omega_w [RPM]")
         
         if cfg.use_wheel_speed_limit:
             ax[1].axhline(cfg.phi_dot_max_rpm, linestyle="--", label="wheel speed limit")
@@ -196,8 +184,9 @@ def plot_results(t, X, U, p, cfg):  # Creates plots for the different states and
         plt.show()
 
 
+
 # ==========================================================================
-    # Pygame Visualization
+# Pygame Visualization
 # ==========================================================================
 
 def rotate_screen_vector(v, angle):
@@ -467,5 +456,4 @@ def run_pygame_simulation(p, cfg, K, initial_theta_deg):
         pygame.quit()
 
 
-cfg = SimConfig()
 
