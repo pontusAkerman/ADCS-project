@@ -89,6 +89,7 @@ rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/r
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
+rosidl_generator_c/rwip_ros2_package/msg/control_input.h: rosidl_adapter/rwip_ros2_package/msg/States.idl
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/rwip_ros2_package/msg/control_input.h: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -166,6 +167,18 @@ rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__struct.h: rosidl_
 rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.h: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.h
 
+rosidl_generator_c/rwip_ros2_package/msg/states.h: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/states.h
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.h: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.h
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__struct.h: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__struct.h
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.h: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.h
+
 rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c
 
@@ -174,6 +187,15 @@ rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__functions.c: rosi
 
 rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c
+
+rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c: rosidl_generator_c/rwip_ros2_package/msg/control_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c
 
 CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/flags.make
 CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c.o: rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c
@@ -217,11 +239,56 @@ CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c.s
 
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/flags.make
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o: rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o -MF CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o.d -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c > CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.i
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.s
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/flags.make
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o: rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o -MF CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o.d -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c > CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.i
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.s
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/flags.make
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o: rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o -MF CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o.d -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c > CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.i
+
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c -o CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.s
+
 # Object files for target rwip_ros2_package__rosidl_generator_c
 rwip_ros2_package__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c.o" \
 "CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__functions.c.o" \
-"CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c.o"
+"CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c.o" \
+"CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o" \
+"CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o" \
+"CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o"
 
 # External object files for target rwip_ros2_package__rosidl_generator_c
 rwip_ros2_package__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -229,6 +296,9 @@ rwip_ros2_package__rosidl_generator_c_EXTERNAL_OBJECTS =
 librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__description.c.o
 librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__functions.c.o
 librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c.o
+librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c.o
+librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c.o
+librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c.o
 librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/build.make
 librwip_ros2_package__rosidl_generator_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 librwip_ros2_package__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
@@ -236,7 +306,7 @@ librwip_ros2_package__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_inter
 librwip_ros2_package__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 librwip_ros2_package__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 librwip_ros2_package__rosidl_generator_c.so: CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library librwip_ros2_package__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library librwip_ros2_package__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -254,6 +324,13 @@ CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__struct.h
 CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.c
 CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/control_input__type_support.h
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__description.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__functions.h
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__struct.h
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.c
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/detail/states__type_support.h
+CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend: rosidl_generator_c/rwip_ros2_package/msg/states.h
 	cd /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/rwip_ros2_package__rosidl_generator_c.dir/depend
 

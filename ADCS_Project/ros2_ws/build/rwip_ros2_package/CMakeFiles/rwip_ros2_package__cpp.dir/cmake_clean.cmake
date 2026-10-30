@@ -5,7 +5,12 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__struct.hpp"
   "rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__traits.hpp"
   "rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__type_support.hpp"
+  "rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__builder.hpp"
+  "rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__struct.hpp"
+  "rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__traits.hpp"
+  "rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__type_support.hpp"
   "rosidl_generator_cpp/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp"
+  "rosidl_generator_cpp/rwip_ros2_package/msg/states.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

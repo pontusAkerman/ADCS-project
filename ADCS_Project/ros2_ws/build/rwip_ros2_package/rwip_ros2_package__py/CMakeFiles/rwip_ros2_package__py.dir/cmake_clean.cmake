@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/__init__.py"
   "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_control_input.py"
   "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_control_input_s.c"
+  "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_states.py"
+  "/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_generator_py/rwip_ros2_package/msg/_states_s.c"
   "CMakeFiles/rwip_ros2_package__py"
 )
 

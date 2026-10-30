@@ -76,6 +76,7 @@ rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /o
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
+rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: rosidl_adapter/rwip_ros2_package/msg/States.idl
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -144,6 +145,9 @@ rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp: /o
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
+rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp: rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp
+
 CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o: rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp
 CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/compiler_depend.ts
@@ -158,14 +162,30 @@ CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp -o CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.s
 
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o: rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o -MF CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o.d -o CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o -c /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp
+
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp > CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.i
+
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp -o CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.s
+
 # Object files for target rwip_ros2_package__rosidl_typesupport_cpp
 rwip_ros2_package__rosidl_typesupport_cpp_OBJECTS = \
-"CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o"
+"CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o" \
+"CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o"
 
 # External object files for target rwip_ros2_package__rosidl_typesupport_cpp
 rwip_ros2_package__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 librwip_ros2_package__rosidl_typesupport_cpp.so: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp.o
+librwip_ros2_package__rosidl_typesupport_cpp.so: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp.o
 librwip_ros2_package__rosidl_typesupport_cpp.so: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/build.make
 librwip_ros2_package__rosidl_typesupport_cpp.so: librwip_ros2_package__rosidl_generator_c.so
 librwip_ros2_package__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
@@ -179,7 +199,7 @@ librwip_ros2_package__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libbuiltin_i
 librwip_ros2_package__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 librwip_ros2_package__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 librwip_ros2_package__rosidl_typesupport_cpp.so: CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librwip_ros2_package__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library librwip_ros2_package__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +211,7 @@ CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/clean
 
 CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/rwip_ros2_package/msg/control_input__type_support.cpp
+CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/rwip_ros2_package/msg/states__type_support.cpp
 	cd /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/src/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package /home/pontus-akerman/Desktop/ADCS-project/ADCS_Project/ros2_ws/build/rwip_ros2_package/CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/rwip_ros2_package__rosidl_typesupport_cpp.dir/depend
 

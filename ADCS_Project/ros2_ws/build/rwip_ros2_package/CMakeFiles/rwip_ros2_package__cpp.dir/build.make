@@ -71,6 +71,11 @@ CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/de
 CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__struct.hpp
 CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__traits.hpp
 CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__type_support.hpp
+CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/states.hpp
+CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__builder.hpp
+CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__struct.hpp
+CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__traits.hpp
+CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__type_support.hpp
 CMakeFiles/rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/sha
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: rosidl_adapter/rwip_ros2_package/msg/ControlInput.idl
+rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: rosidl_adapter/rwip_ros2_package/msg/States.idl
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
@@ -173,6 +179,21 @@ rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__traits.hpp: ros
 rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__type_support.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__type_support.hpp
 
+rosidl_generator_cpp/rwip_ros2_package/msg/states.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/states.hpp
+
+rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__builder.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__builder.hpp
+
+rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__struct.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__struct.hpp
+
+rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__traits.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__traits.hpp
+
+rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__type_support.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__type_support.hpp
+
 rosidl_generator_cpp/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/rwip_ros2_package/msg/control_input.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -182,7 +203,12 @@ rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/contro
 rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__struct.hpp
 rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__traits.hpp
 rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/control_input__type_support.hpp
+rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__builder.hpp
+rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__struct.hpp
+rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__traits.hpp
+rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/detail/states__type_support.hpp
 rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp
+rwip_ros2_package__cpp: rosidl_generator_cpp/rwip_ros2_package/msg/states.hpp
 rwip_ros2_package__cpp: CMakeFiles/rwip_ros2_package__cpp.dir/build.make
 .PHONY : rwip_ros2_package__cpp
 

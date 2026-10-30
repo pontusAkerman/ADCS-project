@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rwip_ros2_package__rosidl_generator_type_description"
   "rosidl_generator_type_description/rwip_ros2_package/msg/ControlInput.json"
+  "rosidl_generator_type_description/rwip_ros2_package/msg/States.json"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -48,3 +48,72 @@ impl rosidl_runtime_rs::Message for ControlInput {
 }
 
 
+// Corresponds to rwip_ros2_package__msg__States
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct States {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub phi: f64,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub phi_dot: f64,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub theta: f64,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub theta_dot: f64,
+
+}
+
+
+
+impl Default for States {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::msg::rmw::States::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for States {
+  type RmwMsg = super::msg::rmw::States;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        phi: msg.phi,
+        phi_dot: msg.phi_dot,
+        theta: msg.theta,
+        theta_dot: msg.theta_dot,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      phi: msg.phi,
+      phi_dot: msg.phi_dot,
+      theta: msg.theta,
+      theta_dot: msg.theta_dot,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      phi: msg.phi,
+      phi_dot: msg.phi_dot,
+      theta: msg.theta,
+      theta_dot: msg.theta_dot,
+    }
+  }
+}
+
+
