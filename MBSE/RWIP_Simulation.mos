@@ -1,0 +1,18 @@
+model ReactionWheel
+  parameter Real m_b = 1.0 ["Mass kg"];
+  parameter Real m_w = 1.0 ["Mass kg];
+  parameter Real h = 0.1 ["Length m];
+  parameter Real r_w = 0.025 ["Radius m"];
+  parameter Real g = 9.82 ["Acceleration m/s²"]
+  parameter Real tau_d = 0.1 ["Disturbance"]
+
+  Real theta(start = 30*pi/180, fixed = true) ["Angle Rad"];
+  Real theta_dot (start = 0, fixed true) "Angle rate rad/s"];
+  Real phi(start = 0, fixed = true) ["Angle rad"];
+  Real phi_dot(start = 0, fixed = true) ["Angle rate rad/s"];
+
+equation
+  der(theta_dot) = (m_b+m_w)*g*l + tau_d / (0.5*m_w*r_w²)
+  der(phi_dot) = u/(0.5*m_w*r_w²) -der(theta_dot)
+  annotation(experiment(StopTime = 20));
+end ReactionWheel;
